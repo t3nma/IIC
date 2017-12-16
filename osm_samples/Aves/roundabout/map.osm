@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.6.0 (10587 thorn-03.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="41.3654800" minlon="-8.4056600" maxlat="41.3664600" maxlon="-8.4041600"/>
+ <node id="483474582" visible="true" version="2" changeset="14437468" timestamp="2012-12-28T11:58:50Z" user="rtafav2" uid="602999" lat="41.3689972" lon="-8.4057591"/>
+ <node id="483474923" visible="true" version="3" changeset="25697831" timestamp="2014-09-27T01:45:04Z" user="ricar_gonçalves" uid="2322965" lat="41.3649272" lon="-8.4039838"/>
+ <node id="483474987" visible="true" version="2" changeset="14437468" timestamp="2012-12-28T11:58:50Z" user="rtafav2" uid="602999" lat="41.3685962" lon="-8.4056281"/>
+ <node id="483475000" visible="true" version="1" changeset="2372622" timestamp="2009-09-04T19:06:40Z" user="Pedro Veloso" uid="151318" lat="41.3683512" lon="-8.4055364"/>
+ <node id="483475004" visible="true" version="2" changeset="14437468" timestamp="2012-12-28T11:58:50Z" user="rtafav2" uid="602999" lat="41.3678206" lon="-8.4053689"/>
+ <node id="483475009" visible="true" version="2" changeset="14437468" timestamp="2012-12-28T11:58:50Z" user="rtafav2" uid="602999" lat="41.3668493" lon="-8.4049556"/>
+ <node id="483475013" visible="true" version="2" changeset="14437468" timestamp="2012-12-28T11:58:50Z" user="rtafav2" uid="602999" lat="41.3662844" lon="-8.4048450"/>
+ <node id="483475026" visible="true" version="2" changeset="14437468" timestamp="2012-12-28T11:58:50Z" user="rtafav2" uid="602999" lat="41.3657597" lon="-8.4045492"/>
+ <node id="483475031" visible="true" version="3" changeset="25697831" timestamp="2014-09-27T01:45:04Z" user="ricar_gonçalves" uid="2322965" lat="41.3656273" lon="-8.4044171"/>
+ <node id="483545043" visible="true" version="3" changeset="25697831" timestamp="2014-09-27T01:45:04Z" user="ricar_gonçalves" uid="2322965" lat="41.3662466" lon="-8.4012312"/>
+ <node id="483545577" visible="true" version="2" changeset="14437468" timestamp="2012-12-28T11:58:53Z" user="rtafav2" uid="602999" lat="41.3659831" lon="-8.4017031"/>
+ <node id="483545581" visible="true" version="2" changeset="14437468" timestamp="2012-12-28T11:58:53Z" user="rtafav2" uid="602999" lat="41.3657920" lon="-8.4020739"/>
+ <node id="483545598" visible="true" version="3" changeset="25697831" timestamp="2014-09-27T01:45:05Z" user="ricar_gonçalves" uid="2322965" lat="41.3656886" lon="-8.4030592"/>
+ <node id="492091728" visible="true" version="1" changeset="2434581" timestamp="2009-09-10T11:13:12Z" user="Pedro Veloso" uid="151318" lat="41.3653763" lon="-8.4068041"/>
+ <node id="492091730" visible="true" version="1" changeset="2434581" timestamp="2009-09-10T11:13:12Z" user="Pedro Veloso" uid="151318" lat="41.3653937" lon="-8.4067350"/>
+ <node id="492091732" visible="true" version="2" changeset="33357454" timestamp="2015-08-15T23:56:22Z" user="FrViPofm" uid="107257" lat="41.3652224" lon="-8.4072586"/>
+ <node id="492091734" visible="true" version="2" changeset="33357454" timestamp="2015-08-15T23:56:22Z" user="FrViPofm" uid="107257" lat="41.3655243" lon="-8.4089286"/>
+ <node id="492091735" visible="true" version="2" changeset="33357454" timestamp="2015-08-15T23:56:22Z" user="FrViPofm" uid="107257" lat="41.3656751" lon="-8.4096622"/>
+ <node id="492091737" visible="true" version="2" changeset="33357454" timestamp="2015-08-15T23:56:22Z" user="FrViPofm" uid="107257" lat="41.3657044" lon="-8.4098613"/>
+ <node id="492091739" visible="true" version="2" changeset="33357454" timestamp="2015-08-15T23:56:23Z" user="FrViPofm" uid="107257" lat="41.3657416" lon="-8.4107581"/>
+ <node id="492091741" visible="true" version="1" changeset="2434581" timestamp="2009-09-10T11:13:13Z" user="Pedro Veloso" uid="151318" lat="41.3657230" lon="-8.4119272"/>
+ <node id="492091742" visible="true" version="2" changeset="53299491" timestamp="2017-10-27T18:42:31Z" user="zermes" uid="2678365" lat="41.3657281" lon="-8.4124329"/>
+ <node id="492091743" visible="true" version="1" changeset="2434581" timestamp="2009-09-10T11:13:14Z" user="Pedro Veloso" uid="151318" lat="41.3657461" lon="-8.4139928"/>
+ <node id="492091745" visible="true" version="2" changeset="7004507" timestamp="2011-01-17T21:18:19Z" user="kellerma" uid="202858" lat="41.3658272" lon="-8.4150258"/>
+ <node id="492091747" visible="true" version="1" changeset="2434581" timestamp="2009-09-10T11:13:15Z" user="Pedro Veloso" uid="151318" lat="41.3659156" lon="-8.4156392"/>
+ <node id="492091815" visible="true" version="2" changeset="14437468" timestamp="2012-12-28T11:59:02Z" user="rtafav2" uid="602999" lat="41.3658749" lon="-8.4051870"/>
+ <node id="492091832" visible="true" version="2" changeset="14437468" timestamp="2012-12-28T11:59:02Z" user="rtafav2" uid="602999" lat="41.3657433" lon="-8.4055521"/>
+ <node id="492091833" visible="true" version="2" changeset="14437468" timestamp="2012-12-28T11:59:02Z" user="rtafav2" uid="602999" lat="41.3658095" lon="-8.4051236"/>
+ <node id="492098361" visible="true" version="1" changeset="2434880" timestamp="2009-09-10T11:47:33Z" user="Pedro Veloso" uid="151318" lat="41.3657444" lon="-8.4138393"/>
+ <node id="2085659125" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3653696" lon="-8.4042268"/>
+ <node id="2085659145" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3658206" lon="-8.4048601"/>
+ <node id="2085659146" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3658236" lon="-8.4049236"/>
+ <node id="2085659147" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3658361" lon="-8.4047999"/>
+ <node id="2085659149" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3658446" lon="-8.4049806"/>
+ <node id="2085659151" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3658675" lon="-8.4047523"/>
+ <node id="2085659153" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3658805" lon="-8.4050227"/>
+ <node id="2085659155" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3659103" lon="-8.4047243"/>
+ <node id="2085659158" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3659559" lon="-8.4050608"/>
+ <node id="2085659159" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3659579" lon="-8.4047202"/>
+ <node id="2085659161" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3660036" lon="-8.4050568"/>
+ <node id="2085659162" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3660334" lon="-8.4047584"/>
+ <node id="2085659163" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3660464" lon="-8.4050288"/>
+ <node id="2085659164" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3660692" lon="-8.4048004"/>
+ <node id="2085659165" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3660779" lon="-8.4049810"/>
+ <node id="2085659166" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3660902" lon="-8.4048575"/>
+ <node id="2085659167" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:53:51Z" user="rtafav2" uid="602999" lat="41.3660933" lon="-8.4049209"/>
+ <node id="3098112737" visible="true" version="1" changeset="25697831" timestamp="2014-09-27T01:45:00Z" user="ricar_gonçalves" uid="2322965" lat="41.3657285" lon="-8.4045181">
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="3699259426" visible="true" version="1" changeset="33357454" timestamp="2015-08-15T23:55:53Z" user="FrViPofm" uid="107257" lat="41.3657120" lon="-8.4099786"/>
+ <node id="3699259628" visible="true" version="1" changeset="33357454" timestamp="2015-08-15T23:55:48Z" user="FrViPofm" uid="107257" lat="41.3652206" lon="-8.4075640"/>
+ <node id="4217585993" visible="true" version="1" changeset="39691480" timestamp="2016-05-31T15:34:31Z" user="PedroM029" uid="4042178" lat="41.3688663" lon="-8.4057163"/>
+ <node id="4217586001" visible="true" version="1" changeset="39691480" timestamp="2016-05-31T15:34:31Z" user="PedroM029" uid="4042178" lat="41.3674118" lon="-8.4051950"/>
+ <node id="4217586006" visible="true" version="1" changeset="39691480" timestamp="2016-05-31T15:34:31Z" user="PedroM029" uid="4042178" lat="41.3672954" lon="-8.4051454"/>
+ <node id="4217586007" visible="true" version="1" changeset="39691480" timestamp="2016-05-31T15:34:31Z" user="PedroM029" uid="4042178" lat="41.3677919" lon="-8.4053567"/>
+ <node id="4217586008" visible="true" version="1" changeset="39691480" timestamp="2016-05-31T15:34:31Z" user="PedroM029" uid="4042178" lat="41.3670249" lon="-8.4050303"/>
+ <node id="5194644900" visible="true" version="1" changeset="53299491" timestamp="2017-10-27T18:42:26Z" user="zermes" uid="2678365" lat="41.3657301" lon="-8.4123042"/>
+ <way id="40154804" visible="true" version="4" changeset="39691480" timestamp="2016-05-31T15:34:32Z" user="PedroM029" uid="4042178">
+  <nd ref="483474582"/>
+  <nd ref="4217585993"/>
+  <nd ref="483474987"/>
+  <nd ref="483475000"/>
+  <nd ref="483475004"/>
+  <nd ref="4217586007"/>
+  <nd ref="4217586001"/>
+  <nd ref="4217586006"/>
+  <nd ref="4217586008"/>
+  <nd ref="483475009"/>
+  <nd ref="483475013"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Rua de São Miguel"/>
+ </way>
+ <way id="40550555" visible="true" version="5" changeset="53299491" timestamp="2017-10-27T18:42:32Z" user="zermes" uid="2678365">
+  <nd ref="492091832"/>
+  <nd ref="492091730"/>
+  <nd ref="492091728"/>
+  <nd ref="492091732"/>
+  <nd ref="3699259628"/>
+  <nd ref="492091734"/>
+  <nd ref="492091735"/>
+  <nd ref="492091737"/>
+  <nd ref="3699259426"/>
+  <nd ref="492091739"/>
+  <nd ref="492091741"/>
+  <nd ref="5194644900"/>
+  <nd ref="492091742"/>
+  <nd ref="492098361"/>
+  <nd ref="492091743"/>
+  <nd ref="492091745"/>
+  <nd ref="492091747"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Rua da Visitação"/>
+ </way>
+ <way id="40550577" visible="true" version="3" changeset="14437468" timestamp="2012-12-28T11:54:47Z" user="rtafav2" uid="602999">
+  <nd ref="2085659161"/>
+  <nd ref="492091815"/>
+  <nd ref="492091832"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Alameda Arnaldo Gama"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="source" v="bing"/>
+ </way>
+ <way id="40550584" visible="true" version="2" changeset="14437468" timestamp="2012-12-28T11:54:47Z" user="rtafav2" uid="602999">
+  <nd ref="492091832"/>
+  <nd ref="492091833"/>
+  <nd ref="2085659146"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Alameda Arnaldo Gama"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="source" v="bing"/>
+ </way>
+ <way id="198437954" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:54:21Z" user="rtafav2" uid="602999">
+  <nd ref="483475013"/>
+  <nd ref="2085659165"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Rua de São Miguel"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="source" v="bing"/>
+ </way>
+ <way id="198437955" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:54:21Z" user="rtafav2" uid="602999">
+  <nd ref="2085659164"/>
+  <nd ref="483475013"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Rua de São Miguel"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="source" v="bing"/>
+ </way>
+ <way id="198437956" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:54:21Z" user="rtafav2" uid="602999">
+  <nd ref="483475026"/>
+  <nd ref="2085659159"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Rua de São Miguel"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="source" v="bing"/>
+ </way>
+ <way id="198437957" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:54:21Z" user="rtafav2" uid="602999">
+  <nd ref="2085659147"/>
+  <nd ref="483475026"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Rua de São Miguel"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="source" v="bing"/>
+ </way>
+ <way id="198437958" visible="true" version="2" changeset="25697831" timestamp="2014-09-27T01:45:08Z" user="ricar_gonçalves" uid="2322965">
+  <nd ref="483475026"/>
+  <nd ref="3098112737"/>
+  <nd ref="483475031"/>
+  <nd ref="2085659125"/>
+  <nd ref="483474923"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Rua de São Miguel"/>
+ </way>
+ <way id="198438048" visible="true" version="1" changeset="14437468" timestamp="2012-12-28T11:54:30Z" user="rtafav2" uid="602999">
+  <nd ref="2085659164"/>
+  <nd ref="2085659166"/>
+  <nd ref="2085659167"/>
+  <nd ref="2085659165"/>
+  <nd ref="2085659163"/>
+  <nd ref="2085659161"/>
+  <nd ref="2085659158"/>
+  <nd ref="2085659153"/>
+  <nd ref="2085659149"/>
+  <nd ref="2085659146"/>
+  <nd ref="2085659145"/>
+  <nd ref="2085659147"/>
+  <nd ref="2085659151"/>
+  <nd ref="2085659155"/>
+  <nd ref="2085659159"/>
+  <nd ref="2085659162"/>
+  <nd ref="2085659164"/>
+  <tag k="highway" v="residential"/>
+  <tag k="junction" v="roundabout"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="source" v="bing"/>
+ </way>
+ <way id="305211542" visible="true" version="1" changeset="25697831" timestamp="2014-09-27T01:45:02Z" user="ricar_gonçalves" uid="2322965">
+  <nd ref="483545043"/>
+  <nd ref="483545577"/>
+  <nd ref="483545581"/>
+  <nd ref="483545598"/>
+  <nd ref="483475031"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Rua dos Combatentes"/>
+ </way>
+</osm>

@@ -1,10 +1,35 @@
 require 'nokogiri'
 
+
+
+def to_rad(deg)
+  deg*(Math::PI/180)
+end
+
+=begin
+Using Haversine formula to compute the
+distance between to (lat,lon) coordinates
+=end
+def dist(lat1, lon1, lat2, lon2)
+  
+  dLat = to_rad(lat2-lat1)
+  dLon = to_rad(lon2-lon1)
+  a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+      Math.cos(to_rad(lat1)) * Math.cos(to_rad(lat2)) *
+      Math.sin(dLon/2) * Math.sin(dLon/2)
+  c = 2 * Math.atan2(Math.sqrt(a),Math.sqrt(1-a))
+  d = 6371 * c * 1000 # dist in meters
+
+  d.round(2)
+end
+
+
+
+
 doc = Nokogiri::XML(File.open(ARGV[0]))
 
 =begin
-Save all <node>'s latitude and longitude in a hash,
-they are needed later.
+Save all <node>'s latitude and longitude in a hash
 =end
 xml_nodes = {}
 doc.xpath("//node").each do |node|
@@ -17,9 +42,8 @@ doc.xpath("//node").each do |node|
 end
 
 =begin
-Save all residential <way>'s in a hash, 
-they are needed later. Find and save final 
-graph's nodes at the same time.
+Save all residential <way>'s in a hash.
+Find and save graph nodes at the same time.
 =end
 xml_ways = {}
 seen = {}
@@ -97,6 +121,9 @@ end
 =begin
 Write edges file.
 =end
-str_edges = "Source;Target;Street;Type\n"
-E.each { |e| str_edges += e[:source] + ";" + e[:dest] + ";" + e[:street] + ";" + e[:type] + "\n" }
+str_edges = "Source;Target;Street;Dist;Type\n"
+E.each { |e| str_edges += e[:source] + ";" + e[:dest] + ";" + e[:street] + ";" + dist(xml_nodes[e[:source]][:lat].to_f, xml_nodes[e[:source]][:lon].to_f, xml_nodes[e[:dest]][:lat].to_f, xml_nodes[e[:dest]][:lon].to_f).to_s + ";" + e[:type] + "\n" }
 File.write("Edges.csv", str_edges)
+
+
+

@@ -1,0 +1,46 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{NCM}
+Network, Crowds, and Markets: Reasoning about a Highly Connected World.
+  Cambridge University Press (2010)
+
+\bibitem{Authenticus}
+Authenticus system (2016), \url{https://www.authenticus.pt/}
+
+\bibitem{NS}
+Network Science. Cambridge University Press (2016)
+
+\bibitem{Gephi}
+Bastian, M.: Gephi makes graphs handy (2016), \url{https://gephi.org/}
+
+\bibitem{liu2005co}
+Liu, X., Bollen, J., Nelson, M.L., Van~de Sompel, H.: Co-authorship networks in
+  the digital library research community. Information processing \& management
+  41(6),  1462--1480 (2005)
+
+\bibitem{towardsaut2011}
+Mena-Chalco, J.P., Junior, R.M.C.: Towards automatic discovery of co-authorship
+  networks in the brazilian academic areas. In: e-Science Workshops
+  (eScienceW), 2011 IEEE Seventh International Conference on. pp. 53--60. IEEE
+  (2011)
+
+\bibitem{networklit}
+NetSciEd: Network literacy: essential concepts and core ideas (2016),
+  \url{https://sites.google.com/a/binghamton.edu/netscied/teaching-learning/network-concepts}
+
+\bibitem{newman2001structure}
+Newman, M.E.: The structure of scientific collaboration networks. Proceedings
+  of the National Academy of Sciences  98(2),  404--409 (2001)
+
+\bibitem{newman2003structure}
+Newman, M.E.: The structure and function of complex networks. SIAM review
+  45(2),  167--256 (2003)
+
+\bibitem{pagerank98}
+Page, L., Brin, S.: The anatomy of a large-scale hypertextual web search
+  engine. In: Proceedings of the seventh international World-Wide Web
+  conference (1998)
+
+\end{thebibliography}
