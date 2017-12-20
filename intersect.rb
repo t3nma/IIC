@@ -1,17 +1,15 @@
 require 'nokogiri'
+require 'set'
 
-
-
+# degrees to radians
 def to_rad(deg)
   deg*(Math::PI/180)
 end
 
-=begin
-Using Haversine formula to compute the
-distance between to (lat,lon) coordinates
-=end
+
+# Use Haversine formula to compute the
+# distance between to (lat,lon) coordinates
 def dist(lat1, lon1, lat2, lon2)
-  
   dLat = to_rad(lat2-lat1)
   dLon = to_rad(lon2-lon1)
   a = Math.sin(dLat/2) * Math.sin(dLat/2) +
@@ -24,106 +22,90 @@ def dist(lat1, lon1, lat2, lon2)
 end
 
 
-
-
 doc = Nokogiri::XML(File.open(ARGV[0]))
 
-=begin
-Save all <node>'s latitude and longitude in a hash
-=end
-xml_nodes = {}
+# save all osm node info and add
+osm_nodes = {}
+
 doc.xpath("//node").each do |node|
-  atrs = node.attributes
-  id = atrs["id"].value.to_s
-
-  xml_nodes[id] = {}
-  xml_nodes[id][:lat] = atrs["lat"].value.to_s
-  xml_nodes[id][:lon] = atrs["lon"].value.to_s
+  attrs = node.attributes
+  id = attrs["id"].to_s
+  osm_nodes[id] = {}
+  osm_nodes[id][:lat] = attrs["lat"].value.to_f
+  osm_nodes[id][:lon] = attrs["lon"].value.to_f
+  osm_nodes[id][:counter] = 0 # auxiliary field
 end
 
-=begin
-Save all residential <way>'s in a hash.
-Find and save graph nodes at the same time.
-=end
-xml_ways = {}
-seen = {}
-V = {}
+# save all valid ways (roads)
+osm_ways = {}
+way_reg = /primary|secondary|tertiary|unclassified|residential/
+
 doc.xpath("//way").each do |way|
-
+  
   w = {}
-  w[:nds] = []
   w[:name] = "UNAMED"
-
-  valid = false;
-
-  way.elements.each do |elem|
-    atrs = elem.attributes
-
-    # nd ?
-    if elem.name == "nd"
-      w[:nds] << atrs["ref"].value.to_s
-    end
-
-    # tag ?
-    if elem.name == "tag"
-      atrs = elem.attributes
-
-      if atrs["k"].value == "highway" && atrs["v"].value == "residential"
-        valid = true
-      elsif atrs["k"].value == "name"
-        w[:name] = atrs["v"].value.to_s
-      end
-    end
+  w[:type] = nil
+  
+  # get necessary tag info
+  way.css("tag").each do |tag|
+    w[:name] = tag["v"].to_s if tag["k"].to_s == "name"    
+    w[:type] = tag["v"].to_s if tag["k"].to_s == "highway"
+  end
+  
+  # invalid way?
+  next if way_reg.match(w[:type]).nil?
+  
+  # valid, add node info and save it
+  w[:nodes] = []
+  way.css("nd").each do |nd|
+    id = nd.attributes["ref"].value.to_s
+    w[:nodes] << id
+    osm_nodes[id][:counter] += 1 # count node, util for intersection finding
   end
 
-  if valid
-    xml_ways[way.attributes["id"].value.to_s] = w
-
-    w[:nds].each do |nd|
-      if seen[nd].nil?
-        seen[nd] = {}
-      elsif V[nd].nil? # <node> seen at least twice, this is a valid vertex!
-        V[nd] = {}
-      end
-    end
-  end
-
+  osm_ways[way.attributes["id"].value.to_s] = w
 end
 
-=begin
-Write nodes file.
-=end
-str_nodes = "Id;Latitude;Longitude\n"
-V.each { |v| str_nodes += v[0] + ";" + xml_nodes[v[0]][:lat] + ";" + xml_nodes[v[0]][:lon] + "\n" }
-File.write("Nodes.csv", str_nodes)
+puts osm_ways.length.to_s + " valid roads"
 
-=begin
-Find and save final graph's edges.
-=end
-E = []
-xml_ways.each do |k,v|
-  prev = nil 
-  v[:nds].each do |nd|
-    if !V[nd].nil?
-      if !prev.nil?
-        elem = {}
-        elem[:source] = prev
-        elem[:dest] = nd
-        elem[:street] = v[:name]
-        elem[:type] = "Undirected"
-        E << elem
-      end
-      prev = nd
-    end
+nodes = Set.new
+edges = []
+
+# find intersections
+osm_ways.each do |key,val|
+
+  abort("INVALID WAY #" + key + " -> 0 NODES") if val[:nodes].length == 0
+
+  gap_start = 0
+  next if gap_start == val[:nodes].length-1 # one node way
+
+  val[:nodes].each_with_index do |cur_node,ix|
+    next if ix == 0 || osm_nodes[cur_node][:counter] < 2 # first or not an intersection node
+
+    start_node = val[:nodes][gap_start]
+    
+    nodes << start_node
+    nodes << cur_node
+    edges << (start_node + ";" + cur_node + ";" + val[:name] + ";" + val[:type] + ";" + dist(osm_nodes[start_node][:lat],osm_nodes[start_node][:lon],osm_nodes[cur_node][:lat],osm_nodes[cur_node][:lon]).to_s + ";" + "Undirected")
+    
+    gap_start = ix
   end
+
+  next if gap_start == val[:nodes].length-1
+
+  s = val[:nodes][gap_start]
+  e = val[:nodes][-1]
+  
+  edges << (s + ";" + e + ";" + val[:name] + ";" + val[:type] + ";" + dist(osm_nodes[s][:lat], osm_nodes[s][:lon], osm_nodes[e][:lat], osm_nodes[e][:lon]).to_s + ";" +"Undirected")
+  
 end
 
-=begin
-Write edges file.
-=end
-str_edges = "Source;Target;Street;Dist;Type\n"
-E.each { |e| str_edges += e[:source] + ";" + e[:dest] + ";" + e[:street] + ";" + dist(xml_nodes[e[:source]][:lat].to_f, xml_nodes[e[:source]][:lon].to_f, xml_nodes[e[:dest]][:lat].to_f, xml_nodes[e[:dest]][:lon].to_f).to_s + ";" + e[:type] + "\n" }
-File.write("Edges.csv", str_edges)
+# write nodes file
+str = "Id;Latitude;Longitude\n"
+nodes.each { |n| str += n + ";" + osm_nodes[n][:lat].to_s + ";" + osm_nodes[n][:lon].to_s + "\n" }
+File.write("Nodes.csv", str)
 
-
-
+# write edges file
+str = "Source;Target;Road;Road_Type;Dist;Type\n"
+edges.each { |e| str += e + "\n" }
+File.write("Edges.csv", str)
