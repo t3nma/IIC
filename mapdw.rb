@@ -16,6 +16,7 @@ downloaded content.
 =end
 
 require 'overpass_api_ruby'
+require 'json'
 
 abort("USAGE: ruby mapdw.rb filename.csv") if ARGV.empty?
 
@@ -36,5 +37,5 @@ File.readlines(ARGV[0]).each_with_index do |line,ix|
   api.bounding_box(vals[0].to_f, vals[1].to_f, vals[2].to_f, vals[3].to_f)
   resp = api.query("node;way;(._;>;);out body;")
   
-  File.write(vals[4]+".json",resp)
+  File.write(vals[4]+".json", JSON.generate(resp))
 end

@@ -1,4 +1,10 @@
-require 'nokogiri'
+=begin
+
+--intersect.rb
+
+=end
+
+require 'json'
 require 'set'
 
 # degrees to radians
@@ -21,91 +27,95 @@ def dist(lat1, lon1, lat2, lon2)
   d.round(2)
 end
 
+abort("USAGE: ruby intersect.rb filename.json") if ARGV.empty?
 
-doc = Nokogiri::XML(File.open(ARGV[0]))
+map = JSON.parse(File.open(ARGV[0]).read, {:symbolize_names=>true})
 
-# save all osm node info and add
-osm_nodes = {}
+ways = []
+link_count = {}
+way_reg = /^(primary|secondary|tertiary|unclassified|residential)$/
 
-doc.xpath("//node").each do |node|
-  attrs = node.attributes
-  id = attrs["id"].to_s
-  osm_nodes[id] = {}
-  osm_nodes[id][:lat] = attrs["lat"].value.to_f
-  osm_nodes[id][:lon] = attrs["lon"].value.to_f
-  osm_nodes[id][:counter] = 0 # auxiliary field
-end
+map[:elements].each do |elem|
 
-# save all valid ways (roads)
-osm_ways = {}
-way_reg = /primary|secondary|tertiary|unclassified|residential/
-
-doc.xpath("//way").each do |way|
+  next if elem[:type] != "way"                      ||
+          !elem.has_key?(:tags)                     ||
+          !elem[:tags].has_key?(:highway)           ||
+          way_reg.match(elem[:tags][:highway]).nil?
   
-  w = {}
-  w[:name] = "UNAMED"
-  w[:type] = nil
-  
-  # get necessary tag info
-  way.css("tag").each do |tag|
-    w[:name] = tag["v"].to_s if tag["k"].to_s == "name"    
-    w[:type] = tag["v"].to_s if tag["k"].to_s == "highway"
+  ways << elem # valid way!
+
+  elem[:nodes].each do |node|
+    link_count[node] = {:counter=>0} if link_count[node].nil?
+    link_count[node][:counter] += 1
   end
   
-  # invalid way?
-  next if way_reg.match(w[:type]).nil?
-  
-  # valid, add node info and save it
-  w[:nodes] = []
-  way.css("nd").each do |nd|
-    id = nd.attributes["ref"].value.to_s
-    w[:nodes] << id
-    osm_nodes[id][:counter] += 1 # count node, util for intersection finding
-  end
-
-  osm_ways[way.attributes["id"].value.to_s] = w
 end
 
-puts osm_ways.length.to_s + " valid roads"
+puts ways.length.to_s + " valid ways"
+
 
 nodes = Set.new
 edges = []
 
-# find intersections
-osm_ways.each do |key,val|
+ways.each do |way|
 
-  abort("INVALID WAY #" + key + " -> 0 NODES") if val[:nodes].length == 0
+  abort("Invalid way #" + way[:id]) if way[:nodes].length == 0
 
-  gap_start = 0
-  next if gap_start == val[:nodes].length-1 # one node way
+  start = 0
+  next if start == way[:nodes].length-1 # one node way
 
-  val[:nodes].each_with_index do |cur_node,ix|
-    next if ix == 0 || osm_nodes[cur_node][:counter] < 2 # first or not an intersection node
+  way[:nodes].each_with_index do |node,ix|
+    next if ix==0 || link_count[node][:counter] < 2 # first or not an intersection node
 
-    start_node = val[:nodes][gap_start]
-    
-    nodes << start_node
-    nodes << cur_node
-    edges << (start_node + ";" + cur_node + ";" + val[:name] + ";" + val[:type] + ";" + dist(osm_nodes[start_node][:lat],osm_nodes[start_node][:lon],osm_nodes[cur_node][:lat],osm_nodes[cur_node][:lon]).to_s + ";" + "Undirected")
-    
-    gap_start = ix
+    n_start = way[:nodes][start]
+
+    nodes << n_start
+    nodes << node
+
+    e = n_start.to_s + ";" + node.to_s
+
+    if !way[:tags].has_key?(:name)
+      e += ";UNAMED"
+    else
+      e += ";" + way[:tags][:name].gsub(";",'/')
+    end
+
+    e += ";" + way[:tags][:highway] + ";Undirected"
+
+    edges << e
+    start = ix
   end
 
-  next if gap_start == val[:nodes].length-1
+  next if start == way[:nodes].length-1
 
-  s = val[:nodes][gap_start]
-  e = val[:nodes][-1]
+  n_start = way[:nodes][start]
+  n_end   = way[:nodes][-1]
+
+  nodes << n_start
+  nodes << n_end
+
+  e = n_start.to_s + ";" + n_end.to_s
+
+  if !way[:tags].has_key?(:name)
+    e += ";UNAMED"
+  else
+    e += ";" + way[:tags][:name].gsub(";",'/')
+  end
+
+  e += ";" + way[:tags][:highway] + ";Undirected"
   
-  edges << (s + ";" + e + ";" + val[:name] + ";" + val[:type] + ";" + dist(osm_nodes[s][:lat], osm_nodes[s][:lon], osm_nodes[e][:lat], osm_nodes[e][:lon]).to_s + ";" +"Undirected")
-  
+  edges << e
 end
 
 # write nodes file
 str = "Id;Latitude;Longitude\n"
-nodes.each { |n| str += n + ";" + osm_nodes[n][:lat].to_s + ";" + osm_nodes[n][:lon].to_s + "\n" }
+map[:elements].each do |elem|
+  next if elem[:type] != "node" || !nodes.include?(elem[:id])
+  str += elem[:id].to_s + ";" + elem[:lat].to_s + ";" + elem[:lon].to_s + "\n"
+end
 File.write("Nodes.csv", str)
 
 # write edges file
-str = "Source;Target;Road;Road_Type;Dist;Type\n"
+str = "Source;Target;Name;Highway;Type\n"
 edges.each { |e| str += e + "\n" }
 File.write("Edges.csv", str)
