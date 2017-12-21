@@ -2,6 +2,13 @@
 
 --intersect.rb
 
+Parse JSON file containing data 
+extracted from OSM and build
+the corresponding graph.
+
+Nodes => Road intersection
+Edges => Road
+
 =end
 
 require 'json'
