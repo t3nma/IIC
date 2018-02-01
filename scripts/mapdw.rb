@@ -29,7 +29,11 @@ api = OverpassAPI::QL.new(options)
 
 # read bbox file and request data
 File.readlines(ARGV[0]).each_with_index do |line,ix|
-  next if ix == 0 # skip header
+
+  if ix == 0
+    puts "ignoring csv header.."
+    next
+  end
   
   vals = line.gsub("\n",'').split(';')
   next if vals.length < 4 # simple input validation

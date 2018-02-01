@@ -44,13 +44,13 @@ map = JSON.parse(File.open(ARGV[0]).read, {:symbolize_names=>true})
 file_nodes = {}
 map[:elements].each do |elem|
   next if elem[:type] != "node"
-  file_nodes[elem[:id].to_s] = {:lat => elem[:lat], :lon => elem[:lon], :counter => 0}
+  file_nodes[elem[:id].to_s] = {:id => -1, :lat => elem[:lat], :lon => elem[:lon], :counter => 0}
 end
 
 # save all valid osm ways
 # count each node appearance
 ways = []
-way_reg = /^(primary|secondary|tertiary|unclassified|residential)$/
+way_reg = /^(primary|secondary|tertiary|residential)$/
 
 map[:elements].each do |elem|
   
@@ -63,10 +63,9 @@ map[:elements].each do |elem|
   elem[:nodes].each { |node| file_nodes[node.to_s][:counter] += 1 }
 end
 
-puts ways.length.to_s + " valid ways"
-
 # find way intersections, build graph
 nodes = Set.new
+node_count = 1
 edges = []
 
 ways.each do |way|
@@ -77,15 +76,29 @@ ways.each do |way|
   next if ix_start == way[:nodes].length-1 # one node way
   
   way[:nodes].each_with_index do |cur_node,ix|
-    next if ix==0 || file_nodes[cur_node.to_s][:counter] < 2 # first or not an intersection node
+
+    next if ix==0 ||                                # first node
+            file_nodes[cur_node.to_s][:counter] < 2 # not an intersection node
 
     n_start = way[:nodes][ix_start].to_s
     n_end   = way[:nodes][ix].to_s
-    
+
+    next if n_start == n_end # same nodes
+
+    if file_nodes[n_start][:id] == -1
+      file_nodes[n_start][:id] = node_count
+      node_count += 1
+    end
+
+    if file_nodes[n_end][:id] == -1
+      file_nodes[n_end][:id] = node_count
+      node_count += 1
+    end
+      
     nodes << n_start
     nodes << n_end
 
-    e = n_start + ";" + n_end
+    e = file_nodes[n_start][:id].to_s + ";" + file_nodes[n_end][:id].to_s
 
     if !way[:tags].has_key?(:name)
       e << ";UNAMED"
@@ -106,10 +119,22 @@ ways.each do |way|
   n_start = way[:nodes][ix_start].to_s
   n_end   = way[:nodes][-1].to_s
 
+  next if n_start == n_end # same nodes
+
+  if file_nodes[n_start][:id] == -1
+    file_nodes[n_start][:id] = node_count
+    node_count += 1
+  end
+
+  if file_nodes[n_end][:id] == -1
+    file_nodes[n_end][:id] = node_count
+      node_count += 1
+  end
+      
   nodes << n_start
   nodes << n_end
-
-  e = n_start + ";" + n_end
+  
+  e = file_nodes[n_start][:id].to_s + ";" + file_nodes[n_end][:id].to_s
 
   if !way[:tags].has_key?(:name)
     e << ";UNAMED"
@@ -124,12 +149,24 @@ ways.each do |way|
   edges << e
 end
 
-# write nodes file
+# write nodes csv file
 str = "Id;Latitude;Longitude\n"
-nodes.each { |node| str << node << ";" << file_nodes[node][:lat].to_s << ";" << file_nodes[node][:lon].to_s << "\n" }
+nodes.each { |n| str << file_nodes[n][:id].to_s << ";" << file_nodes[n][:lat].to_s << ";" << file_nodes[n][:lon].to_s << "\n" }
 File.write("Nodes.csv", str)
 
-# write edges file
-str = "Source;Target;Name;Highway;Distance;Type\n"
-edges.each { |e| str += e + "\n" }
+puts nodes.size.to_s + " nodes"
+
+# write edges csv file
+# Label  == street name
+# Length == sub-street distance in meters
+str = "Source;Target;Label;Highway;Length;Type\n"
+str_el = ""
+edges.each do |e|
+  str += e + "\n"
+  tokens = e.split(";")
+  str_el += tokens[0] + " " + tokens[1] + " " + tokens[4] + "\n"
+end
 File.write("Edges.csv", str)
+File.write("edgelist.txt", str_el)
+
+puts edges.size.to_s + " edges"
