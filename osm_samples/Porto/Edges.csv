@@ -1,0 +1,599 @@
+Source;Target;Label;Highway;Length;Type
+1;2;Rua de Ramalho Ortigão;residential;103.78;Undirected
+3;4;Rua da Conceição;residential;75.58;Undirected
+4;5;Rua da Conceição;residential;64.46;Undirected
+4;6;Rua de José Falcão;residential;191.06;Undirected
+7;8;Rua de Avis;residential;83.58;Undirected
+9;10;Rua da Maternidade;residential;194.98;Undirected
+11;12;Rua do Rosário;tertiary;120.01;Undirected
+12;13;Rua do Rosário;tertiary;105.07;Undirected
+13;14;Rua do Rosário;tertiary;120.54;Undirected
+14;9;Rua do Rosário;tertiary;108.1;Undirected
+15;14;Rua do Breyner;residential;307.93;Undirected
+14;16;Rua do Breyner;residential;175.45;Undirected
+17;18;Praça da República;secondary;103.09;Undirected
+18;19;Praça da República;secondary;132.92;Undirected
+19;20;Praça da República;secondary;4.95;Undirected
+21;22;Rua Álvares Cabral;secondary;16.19;Undirected
+22;23;Rua Álvares Cabral;secondary;480.51;Undirected
+24;25;Rua dos Bragas;residential;374.0;Undirected
+22;26;UNAMED;residential;23.77;Undirected
+9;27;Rua da Boa Hora;tertiary;113.17;Undirected
+28;29;Rua de Carlos Alberto;residential;59.13;Undirected
+30;31;Rua da Boavista;secondary;22.08;Undirected
+31;32;Rua da Boavista;secondary;356.71;Undirected
+32;33;Rua da Boavista;secondary;19.49;Undirected
+33;34;Rua da Boavista;secondary;120.18;Undirected
+34;35;Rua da Boavista;secondary;126.57;Undirected
+36;37;Rua da Regeneração;tertiary;56.54;Undirected
+37;38;Rua da Regeneração;tertiary;98.35;Undirected
+39;40;Rua do Alferes Malheiro;residential;202.16;Undirected
+41;42;Rua de Fernandes Tomás;secondary;172.9;Undirected
+43;44;Rua do Bonjardim;residential;246.45;Undirected
+44;45;Rua do Bonjardim;residential;55.73;Undirected
+45;46;Rua do Bonjardim;residential;114.13;Undirected
+47;48;Rua da Firmeza;tertiary;208.3;Undirected
+49;50;Rua da Alegria;secondary;53.15;Undirected
+50;51;Rua da Alegria;secondary;68.43;Undirected
+52;53;Rua Dom Agostinho de Jesus e Sousa;tertiary;308.11;Undirected
+54;55;Rua Doutor Alves da Veiga;residential;217.19;Undirected
+56;57;Rua das Carvalheiras;residential;180.55;Undirected
+51;58;Rua da Escola Normal;tertiary;143.91;Undirected
+59;60;Rua Dom João IV;secondary;225.83;Undirected
+61;62;Travessa de Anselmo Braancamp;residential;89.42;Undirected
+63;64;Túnel da Ribeira;primary;175.6;Undirected
+65;66;Rua do Infante Dom Henrique;primary;163.86;Undirected
+67;63;Rua Clube Fluvial Portuense;primary;50.25;Undirected
+68;69;Rua de Dom Manuel II;secondary;19.14;Undirected
+69;70;Rua de Alberto Aires de Gouveia;secondary;6.13;Undirected
+70;71;Rua de Alberto Aires de Gouveia;secondary;6.14;Undirected
+72;73;Rua da Restauração;secondary;23.95;Undirected
+74;40;UNAMED;secondary;44.27;Undirected
+75;76;Rua das Musas;residential;65.23;Undirected
+77;78;Rua de São Filipe de Nery;secondary;24.17;Undirected
+78;79;Rua de São Filipe de Nery;secondary;100.54;Undirected
+79;80;Rua de São Filipe de Nery;secondary;49.45;Undirected
+80;81;Rua de São Filipe de Nery;secondary;11.31;Undirected
+82;83;Rua Doutor Ferreira da Silva;tertiary;11.08;Undirected
+83;84;Rua Doutor Ferreira da Silva;tertiary;89.13;Undirected
+85;86;Campo dos Mártires da Pátria;secondary;160.46;Undirected
+86;87;Campo dos Mártires da Pátria;secondary;39.76;Undirected
+87;88;Campo dos Mártires da Pátria;secondary;14.38;Undirected
+88;89;Campo dos Mártires da Pátria;secondary;9.05;Undirected
+81;90;Rua dos Clérigos;secondary;110.05;Undirected
+90;91;Rua dos Clérigos;secondary;49.04;Undirected
+40;92;Rua Heróis e Mártires de Angola;secondary;150.53;Undirected
+93;94;Rua de Clemente Meneres;tertiary;8.45;Undirected
+94;95;Rua de Clemente Meneres;tertiary;45.09;Undirected
+95;96;Rua de Clemente Meneres;tertiary;77.96;Undirected
+96;97;Rua de Clemente Meneres;tertiary;47.08;Undirected
+97;11;Rua de Clemente Meneres;tertiary;83.96;Undirected
+98;99;Rua das Fontainhas;secondary;261.34;Undirected
+100;101;Rua de Alexandre Herculano;secondary;223.03;Undirected
+101;102;Rua de Alexandre Herculano;secondary;12.32;Undirected
+100;103;Rua de Alexandre Herculano;secondary;193.16;Undirected
+104;99;Avenida de Rodrigues de Freitas;secondary;94.87;Undirected
+99;105;Avenida de Rodrigues de Freitas;secondary;110.99;Undirected
+106;107;Rua Dom João IV;secondary;76.3;Undirected
+107;108;Rua Dom João IV;secondary;78.56;Undirected
+108;59;Rua Dom João IV;secondary;206.22;Undirected
+109;110;Rua de Santo Ildefonso;tertiary;146.17;Undirected
+110;111;Praça dos Poveiros;tertiary;27.73;Undirected
+112;113;Rua Santo Ildefonso;tertiary;85.74;Undirected
+113;114;Rua Santo Ildefonso;tertiary;43.02;Undirected
+114;115;Rua Santo Ildefonso;tertiary;123.58;Undirected
+115;116;Rua Santo Ildefonso;tertiary;32.1;Undirected
+42;59;Rua de Fernandes Tomás;secondary;129.22;Undirected
+59;55;Rua de Fernandes Tomás;secondary;94.25;Undirected
+55;117;Rua de Fernandes Tomás;secondary;81.54;Undirected
+117;118;Rua de Fernandes Tomás;secondary;113.03;Undirected
+118;119;Rua de Fernandes Tomás;secondary;85.8;Undirected
+120;121;Rua Moreira da Assunção;residential;139.58;Undirected
+122;123;Largo da Lapa;secondary;19.93;Undirected
+123;124;Largo da Lapa;secondary;66.59;Undirected
+125;126;Rua Cândido dos Reis;residential;162.58;Undirected
+127;128;Rua da Galeria de Paris;residential;137.94;Undirected
+129;130;Rua Chã;residential;112.16;Undirected
+130;131;Rua Chã;residential;18.75;Undirected
+132;107;Rua do Morgado de Mateus;residential;129.53;Undirected
+107;133;Rua do Morgado de Mateus;residential;130.44;Undirected
+133;134;Rua do Morgado de Mateus;residential;73.86;Undirected
+134;135;Rua do Morgado de Mateus;residential;92.96;Undirected
+135;115;Rua do Morgado de Mateus;residential;31.01;Undirected
+136;133;Rua do Visconde de Bóbeda;residential;126.67;Undirected
+137;138;Rua do Barão de São Cosme;residential;142.84;Undirected
+139;140;Rua de São Victor;residential;108.02;Undirected
+140;141;Rua de São Victor;residential;40.26;Undirected
+141;142;Rua de São Victor;residential;28.62;Undirected
+142;143;Rua de São Victor;residential;54.15;Undirected
+143;144;Rua de São Victor;residential;373.61;Undirected
+134;145;Rua do Conde de Ferreira;residential;96.43;Undirected
+145;146;Rua do Conde de Ferreira;residential;227.89;Undirected
+53;147;Rua Cardeal Dom Américo;tertiary;202.92;Undirected
+147;148;Rua Cardeal Dom Américo;tertiary;18.2;Undirected
+149;61;Rua de Anselmo Braamcamp;residential;141.55;Undirected
+61;150;Rua de Anselmo Braamcamp;residential;267.86;Undirected
+151;152;Rua de Olivença;residential;131.51;Undirected
+153;154;Praça Guilherme Gomes Fernandes;tertiary;97.23;Undirected
+94;155;Rua Doutor Tiago de Almeida;residential;180.26;Undirected
+156;157;Túnel dos Almadas;secondary;59.98;Undirected
+158;159;Rua Elísio de Melo;secondary;73.13;Undirected
+159;156;Rua Elísio de Melo;secondary;14.29;Undirected
+160;161;Rua de Dom João I;residential;99.41;Undirected
+162;163;Rua de O Comércio do Porto;residential;126.11;Undirected
+163;164;Rua de O Comércio do Porto;residential;131.85;Undirected
+165;166;Rua da Póvoa;residential;91.35;Undirected
+167;93;Rua Professor Vicente José de Carvalho;tertiary;93.71;Undirected
+11;155;Rua de Clemente Meneres;secondary;10.58;Undirected
+155;168;Rua de Clemente Meneres;secondary;23.18;Undirected
+169;170;Rua das Taipas;residential;71.63;Undirected
+171;27;Rua da Torrinha;tertiary;279.83;Undirected
+172;173;Rua da Igreja de Cedofeita;residential;147.76;Undirected
+104;100;Rua Duque de Loulé;secondary;148.57;Undirected
+174;129;Avenida Dom Afonso Henriques;secondary;24.25;Undirected
+175;34;Rua do Barão de Forrester;residential;439.86;Undirected
+176;177;Rua Diogo Brandão;residential;101.27;Undirected
+5;178;Rua do General Silveira;residential;111.67;Undirected
+178;179;Rua do General Silveira;residential;13.31;Undirected
+180;181;Rua Sá de Noronha;residential;128.77;Undirected
+103;182;Rua de Augusto Rosa;tertiary;75.15;Undirected
+182;183;Rua de Augusto Rosa;tertiary;145.15;Undirected
+184;185;Rua de Santa Catarina;secondary;235.09;Undirected
+185;58;Rua de Santa Catarina;secondary;203.62;Undirected
+186;187;Rua de Gonçalo Cristóvão;secondary;45.65;Undirected
+187;188;Rua de Gonçalo Cristóvão;secondary;117.03;Undirected
+186;39;Rua do Almada;residential;67.08;Undirected
+39;189;Rua do Almada;residential;303.12;Undirected
+189;2;Rua do Almada;residential;163.48;Undirected
+2;190;Rua do Almada;residential;60.97;Undirected
+190;159;Rua do Almada;residential;33.33;Undirected
+159;191;Rua do Almada;residential;86.17;Undirected
+191;90;Rua do Almada;residential;131.58;Undirected
+192;18;Praça da República;secondary;16.36;Undirected
+193;194;Rua das Doze Casas;residential;396.2;Undirected
+53;149;Rua do Moreira;residential;91.23;Undirected
+195;196;Rua Sacadura Cabral;secondary;114.21;Undirected
+196;21;Rua Sacadura Cabral;secondary;42.73;Undirected
+197;75;Rua de Fonseca Cardoso;secondary;69.4;Undirected
+75;152;Rua de Fonseca Cardoso;secondary;110.16;Undirected
+152;198;Rua de Fonseca Cardoso;secondary;61.47;Undirected
+27;199;Rua de Aníbal Cunha;tertiary;246.65;Undirected
+199;195;Rua de Aníbal Cunha;tertiary;82.82;Undirected
+200;201;Rua do Carmo;tertiary;7.24;Undirected
+202;203;Rua de Camões;secondary;354.79;Undirected
+203;76;Rua de Camões;secondary;175.17;Undirected
+76;204;Rua de Camões;secondary;53.21;Undirected
+42;205;Rua de Coelho Neto;tertiary;69.62;Undirected
+205;206;Rua de Coelho Neto;tertiary;106.04;Undirected
+207;208;Rua de Santos Pousada;secondary;361.56;Undirected
+208;209;Rua de Santos Pousada;secondary;79.37;Undirected
+124;210;Rua da Lapa;secondary;126.2;Undirected
+210;30;Rua da Lapa;secondary;27.67;Undirected
+183;211;Rua Saraiva de Carvalho;secondary;54.71;Undirected
+211;212;Rua Saraiva de Carvalho;secondary;27.13;Undirected
+212;174;Rua Saraiva de Carvalho;secondary;101.25;Undirected
+197;213;Rua de João das Regras;residential;134.21;Undirected
+214;181;Rua das Oliveiras;residential;83.55;Undirected
+181;5;Rua das Oliveiras;residential;86.0;Undirected
+215;216;Campo 24 de Agosto;secondary;37.22;Undirected
+215;217;Campo 24 de Agosto;primary;22.17;Undirected
+217;218;Campo 24 de Agosto;primary;35.6;Undirected
+218;219;Campo 24 de Agosto;primary;26.05;Undirected
+220;221;Rua das Carvalheiras;residential;41.96;Undirected
+221;222;Rua das Carvalheiras;residential;116.57;Undirected
+223;224;Rua da Trindade;secondary;39.23;Undirected
+224;74;Rua da Trindade;secondary;91.28;Undirected
+74;225;Rua da Trindade;secondary;71.79;Undirected
+198;226;Rua de Faria Guimarães;secondary;325.01;Undirected
+227;57;Rua de Gonçalo Cristóvão;secondary;122.91;Undirected
+57;228;Rua de Gonçalo Cristóvão;secondary;143.19;Undirected
+228;229;Rua de Gonçalo Cristóvão;secondary;10.37;Undirected
+230;231;Rua de Gonçalo Cristóvão;secondary;26.69;Undirected
+232;233;Rua de Gonçalo Cristóvão;secondary;166.38;Undirected
+234;235;UNAMED;secondary;30.91;Undirected
+236;151;Rua do Bonjardim;residential;100.41;Undirected
+151;237;Rua do Bonjardim;residential;151.16;Undirected
+30;238;Praça da República;secondary;38.73;Undirected
+239;240;Rua do Melo;residential;208.46;Undirected
+240;241;Rua do Melo;residential;41.74;Undirected
+242;243;Largo do Priorado;residential;92.89;Undirected
+243;244;Largo do Priorado;residential;44.58;Undirected
+244;195;Largo do Priorado;residential;31.69;Undirected
+245;243;Rua de São Martinho;residential;66.86;Undirected
+240;246;Rua Padre Luís Rodrigues;residential;140.93;Undirected
+247;248;Alameda dos Capitães de Abril;residential;63.19;Undirected
+248;249;Alameda dos Capitães de Abril;residential;59.36;Undirected
+249;250;Alameda dos Capitães de Abril;residential;56.23;Undirected
+250;251;UNAMED;residential;41.43;Undirected
+251;248;UNAMED;residential;45.8;Undirected
+251;249;Rua da Liberdade;residential;37.92;Undirected
+252;253;Rua de Antero de Quental;tertiary;50.87;Undirected
+254;255;Largo da Lapa;tertiary;62.26;Undirected
+255;252;Largo da Lapa;tertiary;57.02;Undirected
+256;257;Pátio do Bolhão;residential;37.96;Undirected
+257;258;Pátio do Bolhão;residential;31.8;Undirected
+259;260;Rua Ateneu Comercial do Porto;residential;77.82;Undirected
+7;80;Rua do Conde de Vizela;residential;179.61;Undirected
+261;262;Rua Francisco da Rocha Soares;residential;12.93;Undirected
+262;263;Rua Francisco da Rocha Soares;residential;135.01;Undirected
+264;265;Rua de Tomás Gonzaga;residential;183.61;Undirected
+266;267;Rua das Virtudes;residential;18.43;Undirected
+267;268;Rua das Virtudes;residential;35.51;Undirected
+86;269;Rua Doutor Barbosa de Castro;residential;41.46;Undirected
+269;267;Rua Doutor Barbosa de Castro;residential;157.71;Undirected
+270;271;Rua de Azevedo de Albuquerque;residential;173.59;Undirected
+271;261;Passeio das Virtudes;residential;152.96;Undirected
+261;266;Passeio das Virtudes;residential;0.18;Undirected
+262;272;Calçada das Virtudes;residential;144.05;Undirected
+273;270;Largo do Viriato;residential;74.58;Undirected
+274;275;Rua do Ferraz;residential;79.93;Undirected
+276;277;Travessa de São Sebastião;residential;69.72;Undirected
+278;279;Largo da Fontinha;residential;79.09;Undirected
+185;278;Rua da Fontinha;residential;122.29;Undirected
+208;280;Rua de Santo Isidro;residential;232.56;Undirected
+150;209;Rua do Monte do Tadeu;residential;89.36;Undirected
+281;282;Ponte Infante Dom Henrique;primary;431.13;Undirected
+167;85;Rua Professor Vicente José de Carvalho;tertiary;91.86;Undirected
+111;283;UNAMED;tertiary;2.26;Undirected
+284;13;Rua de Miguel Bombarda;residential;174.4;Undirected
+13;176;Rua de Miguel Bombarda;residential;264.13;Undirected
+21;26;Rua de Cedofeita;residential;27.44;Undirected
+26;25;Rua de Cedofeita;residential;290.1;Undirected
+25;285;Rua de Cedofeita;residential;29.39;Undirected
+285;15;Rua de Cedofeita;residential;76.9;Undirected
+92;189;Rua de Ricardo Jorge;residential;109.91;Undirected
+189;286;Rua de Ricardo Jorge;residential;61.53;Undirected
+287;288;Rua da Picaria;residential;173.85;Undirected
+289;223;Rua Doutor António Luís Gomes;secondary;157.38;Undirected
+92;1;Rua do Clube dos Fenianos;secondary;135.15;Undirected
+1;290;Rua do Clube dos Fenianos;secondary;15.15;Undirected
+236;291;Rua do Bonjardim;residential;193.1;Undirected
+292;293;Túnel dos Almadas;secondary;77.46;Undirected
+294;232;Rua de Camões;secondary;39.55;Undirected
+232;295;Rua de Camões;secondary;13.02;Undirected
+230;296;Viaduto de Gonçalo Cristóvão;secondary;204.73;Undirected
+297;164;Rua Nova da Alfândega;primary;634.79;Undirected
+164;65;Rua Nova da Alfândega;primary;93.31;Undirected
+298;299;Rua Tareija Vaz de Altaro;residential;43.96;Undirected
+299;300;Rua Tareija Vaz de Altaro;residential;27.71;Undirected
+301;169;Rua de Belomonte;residential;142.08;Undirected
+290;289;Praça Gen. Humberto Delgado;secondary;63.56;Undirected
+46;302;Rua Formosa;tertiary;142.35;Undirected
+303;163;Rua de São João Novo;residential;85.25;Undirected
+180;304;Rua Sá de Noronha;residential;88.3;Undirected
+305;306;UNAMED;secondary;38.47;Undirected
+8;6;Rua de Ceuta;tertiary;106.27;Undirected
+35;307;Rua de Oliveira Monteiro;tertiary;209.72;Undirected
+244;308;Largo do Priorado;residential;29.41;Undirected
+195;308;Rua de Aníbal Cunha;secondary;35.08;Undirected
+308;173;Rua de Aníbal Cunha;secondary;6.87;Undirected
+173;35;Rua de Aníbal Cunha;secondary;65.88;Undirected
+199;309;Travessa da Carvalhosa;residential;27.43;Undirected
+309;196;Travessa da Carvalhosa;residential;104.03;Undirected
+309;310;Viela da Carvalhosa;residential;67.26;Undirected
+214;311;Praça de Carlos Alberto;residential;51.33;Undirected
+312;179;Praça Coronel Pacheco;residential;15.39;Undirected
+179;313;Praça Coronel Pacheco;residential;45.62;Undirected
+313;312;Praça Coronel Pacheco;residential;55.55;Undirected
+178;314;Rua do Pinheiro;residential;152.37;Undirected
+315;24;Rua dos Mártires da Liberdade;residential;135.43;Undirected
+24;17;Rua dos Mártires da Liberdade;residential;101.07;Undirected
+316;315;Travessa de São Carlos;residential;64.62;Undirected
+255;123;Largo da Lapa;tertiary;13.06;Undirected
+212;317;Largo Primeiro de Dezembro;residential;44.75;Undirected
+317;211;Largo Primeiro de Dezembro;residential;59.87;Undirected
+142;318;Praça da Alegria;residential;176.76;Undirected
+318;143;Praça da Alegria;residential;157.5;Undirected
+143;319;Praça da Alegria;residential;51.48;Undirected
+319;141;Praça da Alegria;residential;85.06;Undirected
+320;321;Rua de Santa Catarina;tertiary;100.7;Undirected
+283;321;Rua de Passos Manuel;tertiary;231.56;Undirected
+321;259;Rua de Passos Manuel;tertiary;111.4;Undirected
+259;322;Rua de Passos Manuel;tertiary;47.23;Undirected
+320;323;Rua 31 de Janeiro;tertiary;272.54;Undirected
+324;325;Rua do Sol;residential;114.57;Undirected
+306;11;Túnel dos Almadas;secondary;117.39;Undirected
+168;70;Rua de Clemente Meneres;secondary;26.2;Undirected
+168;68;Rua de Dom Manuel II;secondary;26.18;Undirected
+96;326;Beco do Paço;residential;46.92;Undirected
+225;40;Rua de Camões;secondary;46.89;Undirected
+327;33;Rua do Melo;residential;25.19;Undirected
+32;327;Rua das Águas Férreas;residential;32.41;Undirected
+210;31;Rua da Lapa;secondary;29.37;Undirected
+76;37;Travessa da Regeneração;residential;158.51;Undirected
+328;329;Ponte Infante Dom Henrique;primary;429.89;Undirected
+296;233;Rua de Gonçalo Cristóvão;secondary;59.83;Undirected
+330;331;Rua de Santa Catarina;residential;181.56;Undirected
+191;7;Rua da Fábrica;residential;107.25;Undirected
+332;333;Rua da Cooperativa do Povo Portuense;residential;64.28;Undirected
+330;227;Rua de Santa Catarina;secondary;17.75;Undirected
+322;334;Rua Doutor Magalhães Lemos;secondary;196.65;Undirected
+6;153;Rua de José Falcão;tertiary;44.83;Undirected
+335;336;Rua da Póvoa;residential;31.0;Undirected
+336;337;Rua da Póvoa;residential;46.01;Undirected
+336;338;UNAMED;residential;68.8;Undirected
+339;337;Rua da Póvoa;residential;79.1;Undirected
+340;341;Rua do Loureiro;residential;18.65;Undirected
+153;128;Rua de Santa Teresa;residential;41.99;Undirected
+153;180;Rua Actor João Guedes;residential;58.38;Undirected
+180;342;Rua Actor João Guedes;residential;57.74;Undirected
+79;125;Rua de São Filipe de Nery;residential;29.19;Undirected
+93;343;Travessa do Carregal;residential;35.17;Undirected
+344;345;Rua de Fernandes Tomás;secondary;49.7;Undirected
+345;44;Rua de Fernandes Tomás;secondary;101.36;Undirected
+44;224;Rua de Fernandes Tomás;secondary;100.99;Undirected
+346;347;Rua Formosa;tertiary;214.61;Undirected
+347;54;Rua Formosa;tertiary;116.3;Undirected
+54;348;Rua Formosa;tertiary;36.16;Undirected
+349;350;Rua do Bolhão;residential;82.03;Undirected
+350;351;Rua do Bolhão;residential;58.0;Undirected
+351;345;Rua do Bolhão;residential;102.42;Undirected
+331;352;Rua Guedes de Azevedo;residential;89.37;Undirected
+349;43;Rua Guedes de Azevedo;residential;101.48;Undirected
+157;305;Túnel dos Almadas;secondary;451.56;Undirected
+352;353;Rua de Sá da Bandeira;secondary;134.92;Undirected
+354;160;Rua Rodrigues Sampaio;residential;65.1;Undirected
+355;356;Praça de Almeida Garrett;secondary;24.43;Undirected
+357;358;Travessa de Cimo de Vila;residential;45.93;Undirected
+131;359;Rua do Cativo;residential;109.42;Undirected
+360;361;Rua da Porta do Sol;residential;128.74;Undirected
+317;362;Rua de Santa Clara;residential;41.91;Undirected
+277;363;Rua do Corpo da Guarda;residential;127.87;Undirected
+187;230;Rua de Gonçalo Cristóvão;secondary;25.35;Undirected
+188;294;Rua de Camões;secondary;39.44;Undirected
+38;254;Largo da Lapa;tertiary;20.39;Undirected
+197;204;Rua de João das Regras;tertiary;65.58;Undirected
+364;254;Rua do Paraíso;residential;76.96;Undirected
+253;122;Rua de Antero de Quental;secondary;86.69;Undirected
+233;220;Rua de Gonçalo Cristóvão;secondary;102.95;Undirected
+220;365;Rua de Gonçalo Cristóvão;secondary;34.7;Undirected
+365;330;Rua de Gonçalo Cristóvão;secondary;133.54;Undirected
+355;366;Praça de Almeida Garrett;secondary;23.74;Undirected
+352;222;Rua Guedes de Azevedo;residential;67.84;Undirected
+222;349;Rua Guedes de Azevedo;residential;4.87;Undirected
+103;320;Praça da Batalha;tertiary;154.32;Undirected
+169;367;Rua de Belomonte;residential;49.51;Undirected
+367;368;Largo de São João Novo;residential;23.3;Undirected
+368;303;Largo de São João Novo;residential;17.18;Undirected
+368;369;UNAMED;residential;11.62;Undirected
+369;263;Largo da Esperança;residential;19.38;Undirected
+263;264;Largo da Esperança;residential;10.85;Undirected
+370;371;Rua das Taipas;residential;13.86;Undirected
+371;88;Rua das Taipas;residential;160.73;Undirected
+268;371;UNAMED;residential;53.2;Undirected
+268;372;UNAMED;tertiary;12.96;Undirected
+373;370;UNAMED;residential;23.07;Undirected
+370;372;UNAMED;residential;41.25;Undirected
+372;170;UNAMED;residential;20.88;Undirected
+170;373;UNAMED;residential;26.97;Undirected
+374;30;Praça da República;secondary;33.32;Undirected
+19;36;Praça da República;tertiary;24.04;Undirected
+89;77;Campo dos Mártires da Pátria;secondary;106.9;Undirected
+375;183;UNAMED;secondary;67.44;Undirected
+376;375;Rua General Sousa Dias;secondary;144.46;Undirected
+101;324;Passeio das Fontaínhas;residential;143.62;Undirected
+377;378;UNAMED;residential;11.81;Undirected
+379;380;Praça da Liberdade;secondary;28.68;Undirected
+381;382;Avenida dos Aliados;secondary;29.32;Undirected
+334;158;UNAMED;secondary;30.13;Undirected
+128;126;Rua da Fábrica;residential;26.42;Undirected
+126;7;Rua da Fábrica;residential;33.28;Undirected
+156;383;Praça Dona Filipa de Lencastre;tertiary;11.12;Undirected
+383;287;Praça Dona Filipa de Lencastre;tertiary;55.7;Undirected
+287;8;Praça Dona Filipa de Lencastre;tertiary;11.62;Undirected
+190;383;UNAMED;tertiary;23.24;Undirected
+125;127;Rua das Carmelitas;residential;69.24;Undirected
+127;384;Rua das Carmelitas;residential;23.44;Undirected
+384;385;Rua das Carmelitas;residential;34.45;Undirected
+384;386;Rua das Carmelitas;residential;27.77;Undirected
+386;385;Praça Gomes Teixeira;tertiary;35.87;Undirected
+385;154;Praça Gomes Teixeira;tertiary;21.1;Undirected
+83;78;UNAMED;tertiary;16.96;Undirected
+77;82;UNAMED;tertiary;9.76;Undirected
+387;28;Rua de Carlos Alberto;residential;22.65;Undirected
+28;200;Rua de Carlos Alberto;residential;30.63;Undirected
+33;22;Travessa da Figueirôa;residential;124.23;Undirected
+271;269;Rua Doutor António Sousa Macedo;residential;79.52;Undirected
+269;87;Rua Doutor António Sousa Macedo;residential;51.4;Undirected
+388;389;Rua de Mouzinho da Silveira;secondary;303.63;Undirected
+390;391;Rua Trindade Coelho;residential;57.15;Undirected
+154;304;Praça de Gomes Teixeira;tertiary;14.64;Undirected
+304;387;Praça de Gomes Teixeira;tertiary;48.15;Undirected
+387;200;Praça de Gomes Teixeira;tertiary;29.03;Undirected
+290;158;Avenida dos Aliados;secondary;156.59;Undirected
+158;381;Avenida dos Aliados;secondary;91.24;Undirected
+381;380;Avenida dos Aliados;secondary;40.91;Undirected
+380;91;Praça da Liberdade;secondary;74.15;Undirected
+91;392;Praça da Liberdade;secondary;27.2;Undirected
+392;379;Praça da Liberdade;secondary;69.72;Undirected
+389;393;Rua de Mouzinho da Silveira;secondary;178.55;Undirected
+394;273;Largo do Viriato;residential;33.63;Undirected
+394;270;Largo do Viriato;tertiary;66.31;Undirected
+72;394;UNAMED;tertiary;9.68;Undirected
+395;396;Rua de Miragaia;residential;316.91;Undirected
+397;197;Rua do Doutor Alfredo de Magalhães;secondary;83.35;Undirected
+322;161;Rua de Sá da Bandeira;secondary;47.41;Undirected
+161;398;Rua de Sá da Bandeira;secondary;59.72;Undirected
+295;235;Rua do Doutor Alfredo Magalhães;secondary;65.44;Undirected
+235;397;Rua do Doutor Alfredo Magalhães;secondary;37.8;Undirected
+229;296;Rua de Gonçalo Cristóvão;secondary;55.4;Undirected
+140;399;Rua de São Dionísio;residential;8.6;Undirected
+399;400;Rua de São Dionísio;residential;99.86;Undirected
+401;402;Rua da Associação de Moradores de São Victor;residential;42.33;Undirected
+402;403;Rua da Associação de Moradores de São Victor;residential;100.6;Undirected
+404;401;Rua da Associação Moradores de São Victor;residential;9.05;Undirected
+399;404;Rua da Associação Moradores de São Victor;residential;7.64;Undirected
+348;108;Largo do Padrão;tertiary;23.67;Undirected
+108;112;Largo do Padrão;tertiary;34.18;Undirected
+405;398;Rua Doutor António E. Magalhães;residential;48.72;Undirected
+354;406;Rua de Rodrigues Sampaio;residential;58.84;Undirected
+67;407;Rua do Infante Dom Henrique;primary;76.55;Undirected
+407;67;Rua do Infante Dom Henrique;primary;76.55;Undirected
+289;406;Rua Guilherme da Costa Carvalho;tertiary;14.88;Undirected
+406;46;Rua Guilherme da Costa Carvalho;tertiary;66.35;Undirected
+45;223;Rua do Estêvão;residential;84.7;Undirected
+202;364;Rua de São Brás;residential;377.32;Undirected
+288;408;Largo de Mompilher;residential;22.04;Undirected
+286;408;Largo de Mompilher;residential;18.07;Undirected
+408;3;Largo de Mompilher;residential;13.82;Undirected
+29;342;Rua de Carlos Alberto;residential;35.17;Undirected
+409;29;Rua de Carlos Alberto;residential;31.42;Undirected
+342;214;Praça de Carlos Alberto;residential;41.4;Undirected
+177;410;Travessa do Carregal;residential;26.67;Undirected
+410;343;Travessa do Carregal;residential;78.09;Undirected
+343;95;Travessa do Carregal;residential;28.61;Undirected
+410;411;Calçada do Carregal;residential;35.58;Undirected
+305;292;Túnel dos Almadas;secondary;198.36;Undirected
+97;12;Rua Professor Jaime Rios de Sousa;residential;97.66;Undirected
+300;412;Rua Tareija Vaz de Altaro;residential;48.58;Undirected
+276;413;Rua do Corpo da Guarda;residential;9.48;Undirected
+64;414;Avenida Gustavo Eiffel;primary;1235.66;Undirected
+398;302;Rua de Sá da Bandeira;secondary;58.78;Undirected
+405;415;UNAMED;residential;14.02;Undirected
+260;405;Rua Ateneu Comercial do Porto;residential;24.33;Undirected
+416;72;Rua da Restauração;secondary;317.18;Undirected
+27;285;Rua da Torrinha;residential;240.94;Undirected
+51;417;Rua da Alegria;tertiary;151.52;Undirected
+417;48;Rua da Alegria;tertiary;264.63;Undirected
+48;117;Rua da Alegria;tertiary;172.69;Undirected
+117;347;Rua da Alegria;tertiary;196.16;Undirected
+347;110;Rua da Alegria;tertiary;122.91;Undirected
+48;418;Rua da Firmeza;tertiary;47.2;Undirected
+418;60;Rua da Firmeza;tertiary;122.13;Undirected
+58;227;Rua de Santa Catarina;secondary;131.81;Undirected
+60;419;Rua da Firmeza;tertiary;91.26;Undirected
+419;420;Rua da Firmeza;tertiary;84.66;Undirected
+60;421;Rua Dom João IV;secondary;252.47;Undirected
+421;422;Rua Dom João IV;secondary;208.13;Undirected
+422;49;Rua Dom João IV;secondary;52.13;Undirected
+423;424;Rua de São Victor;residential;15.81;Undirected
+424;139;Rua de São Victor;residential;20.75;Undirected
+139;425;Rua dos Manjericos;residential;91.55;Undirected
+425;402;Rua dos Manjericos;residential;8.31;Undirected
+425;403;Rua da Senhora das Dores;residential;101.46;Undirected
+403;400;Rua da Senhora das Dores;residential;35.28;Undirected
+201;426;Rua do Carmo;tertiary;75.55;Undirected
+426;167;Rua do Carmo;tertiary;58.3;Undirected
+71;72;Rua de Alberto Aires de Gouveia;secondary;127.38;Undirected
+73;85;Rua da Restauração;secondary;184.89;Undirected
+427;428;Rua do Duque da Terceira;residential;109.03;Undirected
+428;145;Rua do Duque da Terceira;residential;133.02;Undirected
+145;135;Rua do Duque da Terceira;residential;101.74;Undirected
+137;428;Avenida de Rodrigues de Freitas;secondary;78.03;Undirected
+137;134;Rua do Barão de São Cosme;residential;172.65;Undirected
+418;55;Rua Doutor Alves da Veiga;residential;199.78;Undirected
+358;359;Travessa do Cativo;residential;52.54;Undirected
+118;429;Travessa das Almas;residential;84.58;Undirected
+313;316;UNAMED;residential;11.73;Undirected
+225;294;Rua de Camões;secondary;98.48;Undirected
+430;257;UNAMED;residential;9.2;Undirected
+431;430;UNAMED;residential;13.61;Undirected
+350;431;UNAMED;residential;8.34;Undirected
+90;390;Largo dos Lóios;residential;72.02;Undirected
+363;388;Rua de Mouzinho da Silveira;secondary;74.07;Undirected
+57;365;UNAMED;residential;15.03;Undirected
+365;221;UNAMED;residential;21.46;Undirected
+366;432;Praça de Almeida Garrett;secondary;11.28;Undirected
+432;433;Praça de Almeida Garrett;secondary;18.14;Undirected
+366;340;Praça de Almeida Garrett;secondary;75.42;Undirected
+241;327;Rua das Águas Férreas;residential;72.7;Undirected
+363;340;Avenida Dom Afonso Henriques;secondary;10.79;Undirected
+129;298;Avenida Dom Afonso Henriques;secondary;74.92;Undirected
+298;363;Avenida Dom Afonso Henriques;secondary;103.55;Undirected
+391;388;Rua Trindade Coelho;residential;29.56;Undirected
+149;421;Rua do Moreira;residential;135.97;Undirected
+421;417;Rua do Moreira;residential;93.67;Undirected
+149;419;Rua de Anselmo Braamcamp;residential;248.63;Undirected
+209;62;Rua de Santos Pousada;secondary;257.33;Undirected
+62;53;Rua de Santos Pousada;secondary;139.12;Undirected
+53;339;Rua de Santos Pousada;secondary;179.44;Undirected
+339;420;Rua de Santos Pousada;secondary;68.37;Undirected
+420;434;Rua de Santos Pousada;secondary;195.46;Undirected
+434;42;Rua de Santos Pousada;secondary;73.55;Undirected
+209;435;Rua do Monte do Tadeu;residential;57.67;Undirected
+436;136;Avenida de Rodrigues de Freitas;secondary;107.58;Undirected
+136;137;Avenida de Rodrigues de Freitas;secondary;99.23;Undirected
+105;423;UNAMED;secondary;8.05;Undirected
+423;436;UNAMED;secondary;20.93;Undirected
+436;424;UNAMED;residential;14.69;Undirected
+311;409;Praça de Carlos Alberto;residential;56.56;Undirected
+409;342;Praça de Carlos Alberto;residential;17.63;Undirected
+437;346;Rua Formosa;tertiary;67.72;Undirected
+438;439;Largo do Pinheiro;residential;4.47;Undirected
+314;438;Largo do Pinheiro;residential;9.11;Undirected
+438;440;Largo do Pinheiro;residential;6.73;Undirected
+68;293;Rua de Dom Manuel II;secondary;72.4;Undirected
+131;357;Rua de Cimo de Vila;residential;113.01;Undirected
+422;50;Largo de José Moreira da Silva;secondary;17.99;Undirected
+393;66;Rua de Mouzinho da Silveira;secondary;17.54;Undirected
+441;393;Rua de Mouzinho da Silveira;secondary;9.79;Undirected
+441;407;Rua do Infante Dom Henrique;primary;18.56;Undirected
+66;441;Rua do Infante Dom Henrique;primary;15.03;Undirected
+84;386;Rua Doutor Ferreira da Silva;tertiary;22.99;Undirected
+293;442;Rua de Dom Manuel II;secondary;103.05;Undirected
+379;382;Avenida dos Aliados;secondary;40.01;Undirected
+382;334;Avenida dos Aliados;secondary;91.51;Undirected
+334;289;Avenida dos Aliados;secondary;156.29;Undirected
+35;245;Rua da Boavista;secondary;40.14;Undirected
+245;443;Rua da Boavista;secondary;129.11;Undirected
+444;188;Rua de Camões;secondary;13.01;Undirected
+204;234;Rua de Camões;secondary;96.38;Undirected
+234;444;Rua de Camões;secondary;79.02;Undirected
+229;295;Rua de Gonçalo Cristóvão;secondary;159.75;Undirected
+295;444;Rua de Gonçalo Cristóvão;secondary;8.89;Undirected
+444;231;Rua de Gonçalo Cristóvão;secondary;117.53;Undirected
+231;192;Rua de Gonçalo Cristóvão;secondary;42.4;Undirected
+204;36;Rua de João das Regras;tertiary;158.53;Undirected
+119;344;Rua de Fernandes Tomás;secondary;70.01;Undirected
+344;47;Rua de Sá da Bandeira;secondary;98.92;Undirected
+47;352;Rua de Sá da Bandeira;secondary;142.52;Undirected
+302;437;Rua Formosa;tertiary;69.78;Undirected
+34;172;Rua de Cedofeita;tertiary;87.05;Undirected
+172;21;Rua de Cedofeita;tertiary;32.37;Undirected
+302;344;Rua de Sá da Bandeira;secondary;159.47;Undirected
+114;134;Rua Cidália Meireles;residential;48.38;Undirected
+205;113;Travessa do Poço das Patas;residential;72.3;Undirected
+392;355;Praça de Almeida Garrett;secondary;32.76;Undirected
+356;433;Rua de Sá da Bandeira;secondary;1.87;Undirected
+433;323;Rua de Sá da Bandeira;secondary;25.04;Undirected
+323;322;Rua de Sá da Bandeira;secondary;194.76;Undirected
+75;237;Rua das Musas;residential;140.18;Undirected
+237;213;Rua do Bonjardim;residential;31.38;Undirected
+213;228;Rua do Bonjardim;residential;176.52;Undirected
+237;332;Rua das Musas;residential;120.78;Undirected
+332;279;Rua das Musas;residential;23.28;Undirected
+278;56;Largo da Fontinha;residential;69.29;Undirected
+364;445;Rua do Paraíso;residential;26.18;Undirected
+445;203;Rua do Paraíso;residential;91.96;Undirected
+203;198;Rua do Paraíso;residential;68.51;Undirected
+198;121;Rua do Paraíso;residential;89.52;Undirected
+121;236;Rua do Paraíso;residential;81.81;Undirected
+49;193;Rua da Alegria;secondary;179.2;Undirected
+193;280;Rua da Alegria;secondary;108.63;Undirected
+280;446;Rua da Alegria;secondary;377.59;Undirected
+299;276;Viela da Cadeia;residential;54.71;Undirected
+447;166;Rua do Doutor Carlos Passos;residential;211.62;Undirected
+218;41;Campo 24 de Agosto;secondary;90.12;Undirected
+337;147;Rua dos Abraços;residential;156.16;Undirected
+448;449;UNAMED;residential;81.67;Undirected
+319;138;Rua Joaquim António de Aguiar;residential;55.93;Undirected
+318;144;Rua de Gomes Freire;residential;373.93;Undirected
+216;434;Campo 24 de Agosto;secondary;58.19;Undirected
+216;217;Campo 24 de Agosto;secondary;36.1;Undirected
+450;247;Rua de Cervantes;residential;9.85;Undirected
+247;124;Rua de Cervantes;residential;141.57;Undirected
+451;215;Avenida de Fernão de Magalhães;primary;161.15;Undirected
+100;325;Rua do Duque de Loulé;secondary;128.84;Undirected
+325;452;Rua do Duque de Loulé;secondary;6.55;Undirected
+359;360;Rua do Cativo;residential;9.73;Undirected
+360;182;Rua do Cativo;residential;30.44;Undirected
+453;432;Rua da Madeira;residential;56.39;Undirected
+324;454;Passeio das Fontaínhas;residential;190.13;Undirected
+17;186;Praça da República;secondary;106.31;Undirected
+20;374;Praça da República;secondary;75.51;Undirected
+374;238;Praça da República;secondary;35.78;Undirected
+238;23;Praça da República;secondary;83.08;Undirected
+23;17;Praça da República;secondary;47.04;Undirected
+130;341;Rua do Loureiro;residential;154.94;Undirected
+38;445;Rua do Paraíso;residential;87.1;Undirected
+452;376;Rua General Sousa Dias;secondary;52.45;Undirected

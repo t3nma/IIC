@@ -1,13 +1,6 @@
-args = commandArgs(trailingOnly = TRUE)
-
-# error if no args
-if(length(args) == 0) {
-  stop("USAGE: Rscript --vanilla metrics.R edgelist.txt")
-}
-
 # call tnet and load network
 library("tnet")
-net <- read.table(file = args[1], sep = " ", header = FALSE)
+net <- read.table(file = "edgelist.txt", sep = " ", header = FALSE)
 net <- as.tnet(net = net, type="weighted one-mode tnet")
 net <- symmetrise_w(net = net)
 

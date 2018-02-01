@@ -14,6 +14,33 @@ Edges => Road
 require 'json'
 require 'set'
 
+$edge_map = {}
+
+# check if edge exists
+def find_edge(s,e)
+  return false if $edge_map[s].nil? || $edge_map[e].nil?
+
+  if !$edge_map[s].nil?
+    $edge_map[s].each { |n| return true if e == n }
+  end
+
+  if !$edge_map[e].nil?
+    $edge_map[e].each { |n| return true if s == n }
+  end
+
+  false
+end
+
+# mark edge as found
+def add_edge(n_start, n_end)
+
+  $edge_map[n_start] = [] if $edge_map[n_start].nil?
+  $edge_map[n_start] << n_end
+  
+  $edge_map[n_end] = [] if $edge_map[n_end].nil?
+  $edge_map[n_end] << n_start
+  
+end
 
 # degrees to radians
 def to_rad(deg)
@@ -83,8 +110,11 @@ ways.each do |way|
     n_start = way[:nodes][ix_start].to_s
     n_end   = way[:nodes][ix].to_s
 
-    next if n_start == n_end # same nodes
+    next if n_start == n_end ||       # same nodes
+            find_edge(n_start,n_end) # edge already exists
 
+    add_edge(n_start, n_end)
+    
     if file_nodes[n_start][:id] == -1
       file_nodes[n_start][:id] = node_count
       node_count += 1
@@ -119,8 +149,11 @@ ways.each do |way|
   n_start = way[:nodes][ix_start].to_s
   n_end   = way[:nodes][-1].to_s
 
-  next if n_start == n_end # same nodes
+  next if n_start == n_end || # same nodes
+          find_edge(n_start,n_end) # edge already exists
 
+  add_edge(n_start, n_end)
+  
   if file_nodes[n_start][:id] == -1
     file_nodes[n_start][:id] = node_count
     node_count += 1
@@ -161,12 +194,15 @@ puts nodes.size.to_s + " nodes"
 # Length == sub-street distance in meters
 str = "Source;Target;Label;Highway;Length;Type\n"
 str_el = ""
+avg_len = 0
 edges.each do |e|
   str += e + "\n"
   tokens = e.split(";")
   str_el += tokens[0] + " " + tokens[1] + " " + tokens[4] + "\n"
+  avg_len += tokens[4].to_f
 end
 File.write("Edges.csv", str)
 File.write("edgelist.txt", str_el)
 
 puts edges.size.to_s + " edges"
+puts (avg_len/edges.size).to_s + " avg edge length"

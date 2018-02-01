@@ -1,0 +1,1562 @@
+Source;Target;Label;Highway;Length;Type
+1;2;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;27.91;Undirected
+3;4;UNAMED;tertiary;2.52;Undirected
+4;5;UNAMED;tertiary;24.74;Undirected
+5;6;UNAMED;tertiary;13.96;Undirected
+6;7;UNAMED;tertiary;20.99;Undirected
+8;9;Rua Doutor Cândido Guerreiro;tertiary;134.34;Undirected
+9;10;Rua Doutor Cândido Guerreiro;tertiary;102.43;Undirected
+10;3;Rua Doutor Cândido Guerreiro;tertiary;3.1;Undirected
+11;12;Rua Infante Dom Henrique;tertiary;4.47;Undirected
+12;13;Rua Infante Dom Henrique;tertiary;19.27;Undirected
+13;14;Rua Infante Dom Henrique;tertiary;57.65;Undirected
+15;16;Rua Reitor Teixeira Gomes;tertiary;3.17;Undirected
+16;17;Rua Reitor Teixeira Gomes;tertiary;298.44;Undirected
+17;18;Rua Reitor Teixeira Gomes;tertiary;24.8;Undirected
+18;19;Rua Reitor Teixeira Gomes;tertiary;316.42;Undirected
+20;21;Rua Reitor Teixeira Guedes;residential;55.4;Undirected
+21;22;Rua Reitor Teixeira Guedes;residential;22.34;Undirected
+22;23;Rua Reitor Teixeira Guedes;residential;75.23;Undirected
+23;24;Rua Reitor Teixeira Guedes;residential;49.3;Undirected
+24;25;Rua Reitor Teixeira Guedes;residential;9.63;Undirected
+25;9;Rua Reitor Teixeira Guedes;residential;5.77;Undirected
+9;26;Rua Reitor Teixeira Guedes;residential;46.32;Undirected
+26;27;Rua Reitor Teixeira Guedes;residential;1.91;Undirected
+27;28;Rua Reitor Teixeira Guedes;residential;138.2;Undirected
+29;30;Rua de Portugal;residential;36.12;Undirected
+30;31;Rua de Portugal;residential;8.99;Undirected
+31;32;Rua de Portugal;residential;60.22;Undirected
+32;33;Rua de Portugal;residential;18.6;Undirected
+33;34;Rua de Portugal;residential;61.51;Undirected
+35;4;Avenida 5 de Outubro;tertiary;205.32;Undirected
+4;36;Avenida 5 de Outubro;tertiary;2.49;Undirected
+36;37;Avenida 5 de Outubro;tertiary;153.33;Undirected
+37;38;Avenida 5 de Outubro;tertiary;224.77;Undirected
+39;40;Rua de Berlin;residential;63.3;Undirected
+40;41;Rua de Berlin;residential;307.87;Undirected
+41;42;Rua de Berlin;residential;8.8;Undirected
+39;43;Rua Antero de Quental;residential;53.31;Undirected
+43;44;Rua Antero de Quental;residential;66.34;Undirected
+44;45;Rua Antero de Quental;residential;35.52;Undirected
+45;46;Rua Antero de Quental;residential;25.12;Undirected
+46;47;Rua Antero de Quental;residential;60.99;Undirected
+47;48;Rua Antero de Quental;residential;49.57;Undirected
+48;49;Rua Antero de Quental;residential;78.08;Undirected
+50;51;Rua Ataíde de Olivera;residential;76.66;Undirected
+51;52;Rua Ataíde de Olivera;residential;64.15;Undirected
+52;53;Rua Ataíde de Olivera;residential;67.26;Undirected
+53;20;Rua Ataíde de Olivera;residential;68.72;Undirected
+20;54;Rua Ataíde de Olivera;residential;34.73;Undirected
+54;55;Rua Ataíde de Olivera;residential;50.02;Undirected
+55;56;Rua Ataíde de Olivera;residential;42.1;Undirected
+56;57;Rua Ataíde de Olivera;residential;52.63;Undirected
+7;58;UNAMED;residential;28.28;Undirected
+58;59;UNAMED;residential;16.72;Undirected
+60;61;UNAMED;residential;23.9;Undirected
+62;63;Rua Pintor Carlos Porfírio;residential;129.34;Undirected
+63;64;Rua Pintor Carlos Porfírio;residential;15.54;Undirected
+64;65;Rua Pintor Carlos Porfírio;residential;80.04;Undirected
+66;67;Travessa Pintor Carlos Porfírio;residential;13.95;Undirected
+67;68;Travessa Pintor Carlos Porfírio;residential;17.42;Undirected
+68;69;Travessa Pintor Carlos Porfírio;residential;15.09;Undirected
+69;70;Travessa Pintor Carlos Porfírio;residential;11.12;Undirected
+70;71;Travessa Pintor Carlos Porfírio;residential;159.91;Undirected
+72;73;UNAMED;residential;41.41;Undirected
+74;75;Rua do Bocage;residential;25.55;Undirected
+75;76;Rua do Bocage;residential;55.48;Undirected
+77;78;UNAMED;residential;21.56;Undirected
+79;80;Rua Brites de Almeida;residential;18.24;Undirected
+80;81;Rua Brites de Almeida;residential;4.05;Undirected
+81;82;Rua Brites de Almeida;residential;18.36;Undirected
+82;83;Rua Brites de Almeida;residential;31.04;Undirected
+83;84;Rua Brites de Almeida;residential;16.32;Undirected
+84;79;Rua Brites de Almeida;residential;10.2;Undirected
+85;82;UNAMED;residential;54.54;Undirected
+75;86;Travessa da Trindade;residential;90.57;Undirected
+87;88;Rua da Comunidade Lusíada;residential;133.52;Undirected
+89;90;Rua Teófilo Braga;residential;20.8;Undirected
+90;91;Rua Teófilo Braga;residential;86.33;Undirected
+92;93;Rua Francisco Barreto;tertiary;22.17;Undirected
+93;94;Rua Francisco Barreto;tertiary;58.85;Undirected
+94;95;Rua Francisco Barreto;tertiary;63.88;Undirected
+95;96;Rua Francisco Barreto;tertiary;59.36;Undirected
+97;98;Largo do Carmo;residential;64.23;Undirected
+98;99;Largo do Carmo;residential;11.17;Undirected
+100;101;Rua do Alportel;residential;5.48;Undirected
+101;102;Rua do Alportel;residential;6.58;Undirected
+102;103;Rua do Alportel;residential;6.12;Undirected
+103;104;Rua do Alportel;residential;59.14;Undirected
+104;105;Rua do Alportel;residential;63.59;Undirected
+105;106;Rua do Alportel;residential;74.92;Undirected
+106;107;Rua do Alportel;residential;23.97;Undirected
+108;109;Rua Lethes;residential;22.31;Undirected
+107;110;Rua Cruz das Mestras;residential;23.06;Undirected
+110;111;Rua Cruz das Mestras;residential;104.08;Undirected
+111;112;Rua Cruz das Mestras;residential;79.85;Undirected
+112;113;Rua Cruz das Mestras;residential;24.88;Undirected
+113;114;Rua João de Deus;residential;52.91;Undirected
+114;115;Rua João de Deus;residential;43.48;Undirected
+115;116;Rua João de Deus;residential;74.14;Undirected
+116;28;Rua João de Deus;residential;156.88;Undirected
+117;118;Largo Doutor Francisco Sá Carneiro;residential;25.13;Undirected
+118;119;Largo Doutor Francisco Sá Carneiro;residential;151.95;Undirected
+119;120;Largo Doutor Francisco Sá Carneiro;residential;19.48;Undirected
+31;121;Rua Mouzinho de Albuquerque;residential;78.88;Undirected
+121;122;Rua Mouzinho de Albuquerque;residential;54.85;Undirected
+122;116;Rua Mouzinho de Albuquerque;residential;47.35;Undirected
+116;123;Rua Mouzinho de Albuquerque;residential;89.11;Undirected
+123;8;Rua Mouzinho de Albuquerque;residential;43.71;Undirected
+124;121;UNAMED;residential;72.49;Undirected
+125;126;Rua Almeida Garrett;residential;44.87;Undirected
+126;122;Rua Almeida Garrett;residential;74.31;Undirected
+122;127;Rua Almeida Garrett;residential;94.97;Undirected
+127;128;Rua Almeida Garrett;residential;57.79;Undirected
+123;26;Rua Doutor Coelho de Carvalho;residential;136.91;Undirected
+24;129;Rua Eça de Queiros;residential;46.98;Undirected
+129;55;Rua Eça de Queiros;residential;138.0;Undirected
+130;131;Rua Pedro Nunes;residential;138.08;Undirected
+131;132;Rua Pedro Nunes;residential;160.42;Undirected
+44;133;Rua do Bom João;residential;28.25;Undirected
+133;134;Rua do Bom João;residential;124.64;Undirected
+134;135;Rua do Bom João;residential;24.5;Undirected
+136;137;Rua Alves Rocada;residential;23.36;Undirected
+137;138;Rua Alves Rocada;residential;119.96;Undirected
+139;140;Rua Dom Jerónimo Osório;residential;28.52;Undirected
+140;141;Rua Dom Jerónimo Osório;residential;22.55;Undirected
+141;142;Rua Dom Jerónimo Osório;residential;39.37;Undirected
+142;143;Rua Dom Jerónimo Osório;residential;63.64;Undirected
+143;144;Rua Dom Jerónimo Osório;residential;65.19;Undirected
+144;145;Rua Dom Jerónimo Osório;residential;66.89;Undirected
+145;146;Rua Dom Jerónimo Osório;residential;63.5;Undirected
+147;148;UNAMED;residential;7.86;Undirected
+148;149;UNAMED;residential;9.16;Undirected
+150;151;Rua Baptista Lopes;residential;77.85;Undirected
+151;152;Rua Baptista Lopes;residential;56.91;Undirected
+152;153;Rua Baptista Lopes;residential;3.08;Undirected
+153;154;Rua Baptista Lopes;residential;1.77;Undirected
+154;155;Rua Baptista Lopes;residential;36.35;Undirected
+156;157;Rua do Compromisso;residential;111.24;Undirected
+158;159;Rua do Alportel;primary;9.77;Undirected
+160;161;Rua da Moagem;residential;178.82;Undirected
+161;162;Rua Gomes Freire;residential;49.4;Undirected
+163;164;UNAMED;primary;8.19;Undirected
+164;165;UNAMED;primary;8.0;Undirected
+165;166;UNAMED;primary;41.57;Undirected
+166;167;UNAMED;primary;41.15;Undirected
+167;168;UNAMED;primary;37.34;Undirected
+168;163;UNAMED;primary;31.11;Undirected
+166;169;UNAMED;primary;300.6;Undirected
+158;170;Rua do Alportel;residential;112.25;Undirected
+170;171;Rua do Alportel;residential;67.52;Undirected
+171;172;Rua do Alportel;residential;45.35;Undirected
+172;173;Rua do Alportel;residential;36.59;Undirected
+173;174;Rua do Alportel;residential;48.64;Undirected
+175;176;Praça Alexandre Herculano;residential;32.86;Undirected
+176;177;Praça Alexandre Herculano;residential;52.3;Undirected
+178;179;Rua Engenheiro Joaquim Lopes Belchior;residential;92.87;Undirected
+179;180;Rua Engenheiro Joaquim Lopes Belchior;residential;18.33;Undirected
+180;181;Rua Engenheiro Joaquim Lopes Belchior;residential;85.52;Undirected
+182;183;UNAMED;residential;32.38;Undirected
+180;184;Largo de São Francisco;residential;85.12;Undirected
+184;185;Largo de São Francisco;residential;55.75;Undirected
+185;186;Largo de São Francisco;residential;31.04;Undirected
+186;187;Largo de São Francisco;residential;58.26;Undirected
+187;188;Largo de São Francisco;residential;30.51;Undirected
+189;190;Praça Dom Francisco Gomes;residential;14.43;Undirected
+190;191;Praça Dom Francisco Gomes;residential;56.12;Undirected
+191;192;Praça Dom Francisco Gomes;residential;7.91;Undirected
+193;194;UNAMED;primary;250.26;Undirected
+194;195;UNAMED;primary;566.76;Undirected
+196;197;Rua Comandante Francisco Manuel;residential;33.74;Undirected
+198;199;UNAMED;residential;13.78;Undirected
+199;200;UNAMED;residential;18.44;Undirected
+201;202;Rua João Stuard;residential;73.78;Undirected
+202;203;Rua João Stuard;residential;26.15;Undirected
+203;204;Rua João Stuard;residential;72.35;Undirected
+205;206;Rua da Boavista;residential;141.98;Undirected
+206;207;Rua da Abegoaria;residential;153.72;Undirected
+208;209;Rua Serpa Pinto;residential;24.88;Undirected
+209;210;Rua Serpa Pinto;residential;41.41;Undirected
+210;91;Rua Serpa Pinto;residential;57.44;Undirected
+91;205;Rua Serpa Pinto;residential;69.72;Undirected
+205;207;Rua Serpa Pinto;residential;71.66;Undirected
+207;211;Rua Serpa Pinto;residential;16.77;Undirected
+211;212;Rua Serpa Pinto;residential;39.09;Undirected
+213;139;Estrada da Penha;residential;196.32;Undirected
+139;214;Estrada da Penha;residential;69.56;Undirected
+214;215;Estrada da Penha;residential;13.8;Undirected
+216;140;Rua de São Luís;residential;82.22;Undirected
+171;217;Rua Doutor Guilherme Centazzi;residential;52.51;Undirected
+217;218;Rua Doutor Guilherme Centazzi;residential;6.77;Undirected
+218;219;Rua Doutor Guilherme Centazzi;residential;16.12;Undirected
+219;220;Rua Doutor Guilherme Centazzi;residential;13.22;Undirected
+220;221;Rua Doutor Guilherme Centazzi;residential;17.79;Undirected
+221;222;Rua Doutor Guilherme Centazzi;residential;33.07;Undirected
+222;223;Rua Doutor Guilherme Centazzi;residential;16.08;Undirected
+223;224;Rua Doutor Guilherme Centazzi;residential;17.06;Undirected
+224;225;Rua Doutor Guilherme Centazzi;residential;16.17;Undirected
+225;226;Rua Doutor Guilherme Centazzi;residential;6.66;Undirected
+226;227;Rua Doutor Guilherme Centazzi;residential;19.31;Undirected
+227;228;Rua Doutor Guilherme Centazzi;residential;22.87;Undirected
+228;229;Rua Doutor Guilherme Centazzi;residential;3.61;Undirected
+229;230;Rua Doutor Guilherme Centazzi;residential;19.39;Undirected
+211;231;Rua da Atalaia;residential;128.37;Undirected
+182;232;Rua Nova do Castelo;residential;111.95;Undirected
+233;234;Rua do Arco;residential;33.78;Undirected
+88;235;Rua Gil Eanes;residential;174.95;Undirected
+236;237;Praça Dom Francisco Gomes;tertiary;6.0;Undirected
+237;238;Praça Dom Francisco Gomes;tertiary;92.26;Undirected
+239;240;UNAMED;tertiary;5.7;Undirected
+240;241;UNAMED;tertiary;21.42;Undirected
+241;242;UNAMED;tertiary;8.81;Undirected
+242;243;UNAMED;tertiary;10.28;Undirected
+243;239;UNAMED;tertiary;18.18;Undirected
+244;245;UNAMED;tertiary;8.48;Undirected
+245;197;UNAMED;tertiary;19.73;Undirected
+197;246;UNAMED;tertiary;15.05;Undirected
+246;244;UNAMED;tertiary;15.15;Undirected
+247;248;Avenida da República;residential;13.16;Undirected
+247;249;Avenida da República;tertiary;75.28;Undirected
+242;250;Avenida da República;tertiary;9.23;Undirected
+250;251;Avenida da República;tertiary;12.21;Undirected
+251;247;Avenida da República;tertiary;91.41;Undirected
+248;87;UNAMED;residential;19.7;Undirected
+87;249;Avenida da República;residential;80.42;Undirected
+236;245;UNAMED;tertiary;43.26;Undirected
+252;239;UNAMED;tertiary;26.57;Undirected
+253;254;UNAMED;residential;354.03;Undirected
+255;256;Largo de São Francisco;residential;24.62;Undirected
+256;257;Largo de São Francisco;residential;89.21;Undirected
+257;258;Largo de São Francisco;residential;54.6;Undirected
+258;179;Largo de São Francisco;residential;86.6;Undirected
+259;260;Rua do Município;residential;65.75;Undirected
+260;261;Rua do Município;residential;35.92;Undirected
+261;262;Rua do Município;residential;7.51;Undirected
+263;264;Travessa do Bocage;residential;31.52;Undirected
+175;265;Rua Rebelo da Silva;residential;109.23;Undirected
+266;267;UNAMED;residential;26.99;Undirected
+83;266;Rua Brites de Almeida;residential;48.7;Undirected
+266;268;Rua Brites de Almeida;residential;43.51;Undirected
+269;82;Rua do Pé da Cruz;residential;153.45;Undirected
+270;271;Rua da Misericórdia;residential;138.76;Undirected
+272;273;Praça Alexandre Herculano;residential;61.85;Undirected
+273;274;Rua Castilho;residential;61.91;Undirected
+274;275;Rua Castilho;residential;47.72;Undirected
+177;276;Praça Alexandre Herculano;residential;8.53;Undirected
+276;277;Praça Alexandre Herculano;residential;30.71;Undirected
+277;264;Praça Alexandre Herculano;residential;10.09;Undirected
+264;278;Rua Veríssimo de Almeida;residential;89.69;Undirected
+261;279;Rua Domingos Guieiro;residential;76.35;Undirected
+280;281;Rua do Trem;residential;45.84;Undirected
+279;282;Rua do Rasquinho;residential;110.56;Undirected
+255;188;Rua Teresa Ramalho Ortigão;residential;31.75;Undirected
+188;283;Rua Teresa Ramalho Ortigão;residential;12.55;Undirected
+283;284;Rua Teresa Ramalho Ortigão;residential;40.13;Undirected
+284;285;Rua Teresa Ramalho Ortigão;residential;47.45;Undirected
+285;286;Rua Teresa Ramalho Ortigão;residential;97.39;Undirected
+286;287;Rua Teresa Ramalho Ortigão;residential;68.69;Undirected
+287;288;Rua Teresa Ramalho Ortigão;residential;91.86;Undirected
+288;289;Rua Teresa Ramalho Ortigão;residential;105.19;Undirected
+290;291;Largo de São Francisco;residential;27.25;Undirected
+291;186;Largo de São Francisco;residential;69.31;Undirected
+184;258;Largo de São Francisco;residential;31.81;Undirected
+258;292;Largo de São Francisco;residential;101.23;Undirected
+293;294;Largo de São Francisco;residential;59.26;Undirected
+294;295;Largo de São Francisco;residential;66.79;Undirected
+296;297;Rua do Albergue;residential;112.74;Undirected
+297;255;Rua do Albergue;residential;82.33;Undirected
+257;185;Largo de São Francisco;residential;31.71;Undirected
+185;298;Largo de São Francisco;residential;85.25;Undirected
+165;299;Avenida Calouste Gulbenkian;primary;291.34;Undirected
+299;300;Avenida Calouste Gulbenkian;primary;26.79;Undirected
+300;159;Avenida Calouste Gulbenkian;primary;681.5;Undirected
+301;302;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;98.89;Undirected
+302;303;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;57.24;Undirected
+303;304;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;251.21;Undirected
+304;305;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;20.02;Undirected
+306;307;Rua Doutor José Filipe Álvares;residential;40.77;Undirected
+307;308;Rua Doutor José Filipe Álvares;residential;25.81;Undirected
+308;309;Rua Doutor José Filipe Álvares;residential;37.09;Undirected
+309;310;Rua Doutor José Filipe Álvares;residential;2.82;Undirected
+310;311;Rua Doutor José Filipe Álvares;residential;30.07;Undirected
+311;312;Rua Doutor José Filipe Álvares;residential;76.63;Undirected
+312;313;Rua Doutor José Filipe Álvares;residential;65.29;Undirected
+313;314;Rua Doutor José Filipe Álvares;residential;49.97;Undirected
+314;315;Rua Doutor José Filipe Álvares;residential;20.28;Undirected
+315;316;Rua Doutor José Filipe Álvares;residential;21.6;Undirected
+316;317;Rua Doutor José Filipe Álvares;residential;9.08;Undirected
+317;318;Rua Doutor José Filipe Álvares;residential;19.88;Undirected
+319;320;UNAMED;residential;39.12;Undirected
+227;321;Praça de Tanger;residential;17.78;Undirected
+321;322;Praça de Tanger;residential;35.8;Undirected
+322;323;Praça de Tanger;residential;13.73;Undirected
+323;324;Praça de Tanger;residential;31.35;Undirected
+324;325;Praça de Tanger;residential;50.15;Undirected
+325;228;Praça de Tanger;residential;17.89;Undirected
+54;326;Rua General Humberto Delgado;residential;88.98;Undirected
+326;327;Rua General Humberto Delgado;residential;65.52;Undirected
+327;328;Rua General Humberto Delgado;residential;82.38;Undirected
+329;330;UNAMED;residential;164.78;Undirected
+317;331;UNAMED;residential;25.47;Undirected
+331;332;UNAMED;residential;14.48;Undirected
+56;333;Rua Camilo Castel Branco;residential;171.09;Undirected
+334;324;Rua Leão Penedo;residential;255.85;Undirected
+335;336;Rua Pintor Artur Costa;residential;53.3;Undirected
+336;337;Rua Pintor Artur Costa;residential;65.73;Undirected
+337;338;Rua Pintor Artur Costa;residential;78.22;Undirected
+338;339;Rua Pintor Artur Costa;residential;45.47;Undirected
+339;340;Rua Pintor Artur Costa;residential;14.75;Undirected
+340;341;Rua Pintor Artur Costa;residential;19.64;Undirected
+341;342;Rua Pintor Artur Costa;residential;32.51;Undirected
+342;343;Rua Pintor Artur Costa;residential;16.33;Undirected
+343;344;Rua Pintor Artur Costa;residential;51.98;Undirected
+344;345;Rua Pintor Artur Costa;residential;67.07;Undirected
+345;346;Rua Pintor Artur Costa;residential;69.81;Undirected
+347;348;Rua Jornal “O Algarve”;residential;76.72;Undirected
+348;349;Rua Jornal “O Algarve”;residential;22.44;Undirected
+349;350;Rua Jornal “O Algarve”;residential;50.5;Undirected
+350;308;Rua Jornal “O Algarve”;residential;25.43;Undirected
+308;351;Rua Jornal “O Algarve”;residential;112.43;Undirected
+351;352;Rua Jornal “O Algarve”;residential;74.09;Undirected
+352;353;Rua Jornal “O Algarve”;residential;33.82;Undirected
+353;336;Rua Jornal “O Algarve”;residential;56.11;Undirected
+354;355;Rua General Humberto Delgado;residential;53.17;Undirected
+355;356;Rua General Humberto Delgado;residential;24.02;Undirected
+356;22;Rua General Humberto Delgado;residential;79.75;Undirected
+312;357;Rua Jornal “Folha de Domingo”;residential;70.76;Undirected
+357;358;Rua Jornal “Folha de Domingo”;residential;102.71;Undirected
+358;359;Rua Jornal “Folha de Domingo”;residential;30.69;Undirected
+359;353;Rua Jornal “Folha de Domingo”;residential;64.63;Undirected
+360;361;UNAMED;residential;20.98;Undirected
+362;354;Rua General Humberto Delgado;residential;19.61;Undirected
+363;115;Rua Doutor Justino Cumano;residential;101.8;Undirected
+115;126;Rua Doutor Justino Cumano;residential;49.4;Undirected
+126;124;Rua Doutor Justino Cumano;residential;55.98;Undirected
+124;29;Rua Doutor Justino Cumano;residential;41.69;Undirected
+364;311;Rua Jornal "Correio do Sul";residential;186.45;Undirected
+311;365;Rua Jornal "Correio do Sul";residential;114.51;Undirected
+365;359;Rua Jornal "Correio do Sul";residential;66.28;Undirected
+366;367;UNAMED;residential;28.83;Undirected
+368;369;UNAMED;residential;16.85;Undirected
+369;370;UNAMED;residential;15.93;Undirected
+371;372;UNAMED;residential;45.0;Undirected
+372;351;UNAMED;residential;23.54;Undirected
+351;373;UNAMED;residential;30.09;Undirected
+373;374;UNAMED;residential;3.45;Undirected
+374;375;UNAMED;residential;2.52;Undirected
+375;365;UNAMED;residential;28.9;Undirected
+374;376;UNAMED;residential;53.23;Undirected
+377;378;UNAMED;residential;148.33;Undirected
+379;380;Rua da Freira;residential;46.72;Undirected
+380;381;Rua da Freira;residential;10.59;Undirected
+381;382;Rua da Freira;residential;57.34;Undirected
+382;383;Rua da Freira;residential;6.72;Undirected
+383;384;Rua da Freira;residential;19.44;Undirected
+385;386;Rua Gago Coutinho;residential;65.88;Undirected
+386;387;Rua Gago Coutinho;residential;50.35;Undirected
+388;389;Avenida Heróis da Pátria;residential;45.51;Undirected
+159;390;Avenida Calouste Gulbenkian;primary;84.73;Undirected
+390;366;Avenida Calouste Gulbenkian;primary;36.62;Undirected
+366;391;Avenida Calouste Gulbenkian;primary;390.7;Undirected
+392;393;UNAMED;residential;76.22;Undirected
+394;395;Avenida Calouste Gulbenkian;primary;375.28;Undirected
+395;360;Avenida Calouste Gulbenkian;primary;21.92;Undirected
+360;396;Avenida Calouste Gulbenkian;primary;131.82;Undirected
+397;398;UNAMED;residential;29.47;Undirected
+398;399;UNAMED;residential;156.84;Undirected
+398;400;UNAMED;residential;74.67;Undirected
+401;402;UNAMED;residential;69.26;Undirected
+403;404;UNAMED;residential;17.49;Undirected
+404;405;UNAMED;residential;92.9;Undirected
+406;407;Rua Lejana Cima;residential;34.67;Undirected
+407;408;Rua Lejana Cima;residential;214.76;Undirected
+409;410;Urbanização Horta das Figueiras;residential;78.34;Undirected
+410;411;Urbanização Horta das Figueiras;residential;83.16;Undirected
+411;412;Urbanização Horta das Figueiras;residential;20.5;Undirected
+413;414;UNAMED;residential;28.75;Undirected
+415;416;Urbanização Horta das Figuras;residential;38.41;Undirected
+416;417;Urbanização Horta das Figuras;residential;68.01;Undirected
+418;392;Urbanização Horta das Figuras;residential;154.1;Undirected
+392;409;Urbanização Horta das Figuras;residential;90.97;Undirected
+419;420;UNAMED;residential;7.5;Undirected
+420;416;UNAMED;residential;39.08;Undirected
+421;417;UNAMED;residential;30.26;Undirected
+417;411;UNAMED;residential;43.3;Undirected
+410;422;Rua António Balté;residential;40.57;Undirected
+422;423;Rua António Balté;residential;33.52;Undirected
+424;413;UNAMED;residential;37.54;Undirected
+413;425;UNAMED;residential;19.9;Undirected
+426;420;UNAMED;residential;26.3;Undirected
+427;428;Urbanização Horta das Figuras;residential;100.61;Undirected
+428;429;Urbanização Horta das Figuras;residential;21.08;Undirected
+430;422;UNAMED;residential;45.78;Undirected
+427;424;Urbanização Horta das Figuras;residential;37.01;Undirected
+424;423;Urbanização Horta das Figuras;residential;38.03;Undirected
+431;432;Praceta São Tomé e Príncipe;residential;34.33;Undirected
+432;433;Praceta São Tomé e Príncipe;residential;47.68;Undirected
+434;435;Rua do Alto de Rodes;residential;128.18;Undirected
+206;436;Largo do Carmo;residential;68.62;Undirected
+436;437;Largo do Carmo;residential;52.29;Undirected
+437;438;Largo do Carmo;residential;69.64;Undirected
+174;439;Rua Doutor Rodrigo Davim;tertiary;39.75;Undirected
+439;440;Rua Doutor Rodrigo Davim;tertiary;46.94;Undirected
+440;441;Rua Doutor Rodrigo Davim;tertiary;55.26;Undirected
+441;442;Rua Doutor Rodrigo Davim;tertiary;4.78;Undirected
+443;444;Rua Manuel Ascensão;residential;113.16;Undirected
+444;445;Rua Manuel Ascensão;residential;83.05;Undirected
+446;447;Rua das Olarias;residential;33.84;Undirected
+447;448;Rua das Olarias;residential;118.24;Undirected
+448;449;Rua das Olarias;residential;62.52;Undirected
+450;386;Rua Ascensão Guimarães;residential;121.32;Undirected
+386;451;Rua Ascensão Guimarães;residential;208.93;Undirected
+452;450;UNAMED;residential;56.07;Undirected
+450;453;UNAMED;residential;6.37;Undirected
+454;455;Rua Rui Berreto;residential;144.0;Undirected
+456;435;UNAMED;residential;40.93;Undirected
+435;455;UNAMED;residential;24.05;Undirected
+455;457;UNAMED;residential;24.3;Undirected
+458;459;Rua Dom Frei João de Faro;residential;84.69;Undirected
+459;460;Rua Dom Frei João de Faro;residential;118.66;Undirected
+460;461;Rua Dom Frei João de Faro;residential;94.52;Undirected
+460;462;Rua Frei Lourenço Santa Maria;residential;61.82;Undirected
+462;463;Rua Frei Lourenço Santa Maria;residential;50.23;Undirected
+463;464;Rua Frei Lourenço Santa Maria;residential;39.24;Undirected
+201;456;Rua Alferes Arnaldo Luzia da Silva;residential;31.98;Undirected
+456;465;Rua Alferes Arnaldo Luzia da Silva;residential;81.15;Undirected
+465;466;Rua Alferes Arnaldo Luzia da Silva;residential;126.0;Undirected
+466;458;Rua Alferes Arnaldo Luzia da Silva;residential;36.55;Undirected
+458;171;Rua Alferes Arnaldo Luzia da Silva;residential;45.91;Undirected
+467;203;UNAMED;residential;45.06;Undirected
+387;468;Rua Gago Countinho;residential;68.78;Undirected
+469;470;Rua São Gonçalo de Lagos;residential;62.23;Undirected
+470;463;Rua São Gonçalo de Lagos;residential;94.15;Undirected
+463;471;Rua São Gonçalo de Lagos;residential;34.68;Undirected
+432;204;UNAMED;residential;33.55;Undirected
+202;457;Rua César Pola;residential;23.43;Undirected
+457;472;Rua César Pola;residential;47.32;Undirected
+472;447;Rua César Pola;residential;80.87;Undirected
+473;462;Rua Diogo Mendonça Corte Real;residential;75.01;Undirected
+462;474;Rua Diogo Mendonça Corte Real;residential;93.74;Undirected
+474;475;Rua Diogo Mendonça Corte Real;residential;73.88;Undirected
+475;444;Rua Diogo Mendonça Corte Real;residential;48.96;Undirected
+476;477;Rua Professor Alberto Uva;residential;30.65;Undirected
+478;479;Rua Comandante José Nunes da Cruz;residential;42.97;Undirected
+479;480;Rua Comandante José Nunes da Cruz;residential;29.37;Undirected
+480;476;Rua Comandante José Nunes da Cruz;residential;6.12;Undirected
+476;481;Rua Comandante José Nunes da Cruz;residential;27.04;Undirected
+481;482;Rua Comandante José Nunes da Cruz;residential;14.83;Undirected
+482;483;Rua Comandante José Nunes da Cruz;residential;14.99;Undirected
+483;484;Rua Comandante José Nunes da Cruz;residential;24.45;Undirected
+50;485;Rua Bombeiros Portugueses;residential;88.53;Undirected
+486;487;Rua António Enes;residential;55.2;Undirected
+487;137;Rua António Enes;residential;62.87;Undirected
+137;488;Rua António Enes;residential;113.23;Undirected
+489;490;Rua Doutor António Bernardo da Cruz;residential;12.41;Undirected
+490;17;Rua Doutor António Bernardo da Cruz;residential;92.51;Undirected
+394;391;Rotunda do Hospital de Faro;primary;20.99;Undirected
+391;334;Rotunda do Hospital de Faro;primary;2.2;Undirected
+334;213;Rotunda do Hospital de Faro;primary;18.88;Undirected
+213;301;Rotunda do Hospital de Faro;primary;24.24;Undirected
+301;491;Rotunda do Hospital de Faro;primary;20.61;Undirected
+491;492;Rotunda do Hospital de Faro;primary;4.93;Undirected
+492;193;Rotunda do Hospital de Faro;primary;23.49;Undirected
+193;319;Rotunda do Hospital de Faro;primary;18.72;Undirected
+319;394;Rotunda do Hospital de Faro;primary;10.94;Undirected
+493;494;UNAMED;residential;30.34;Undirected
+495;496;UNAMED;residential;4.86;Undirected
+496;497;UNAMED;residential;35.68;Undirected
+497;18;UNAMED;residential;58.5;Undirected
+498;495;Rua Dorilia Carmona;residential;17.93;Undirected
+495;499;Rua Dorilia Carmona;residential;116.65;Undirected
+500;2;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;7.04;Undirected
+2;501;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;13.8;Undirected
+501;38;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;19.15;Undirected
+38;502;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;9.63;Undirected
+502;503;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;19.24;Undirected
+503;504;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;33.96;Undirected
+504;500;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;7.04;Undirected
+502;505;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;16.33;Undirected
+506;507;UNAMED;residential;39.46;Undirected
+507;498;UNAMED;residential;48.77;Undirected
+498;489;UNAMED;residential;9.26;Undirected
+497;508;UNAMED;residential;56.33;Undirected
+509;510;UNAMED;residential;50.25;Undirected
+121;511;Rua Doutor João Lúcio;residential;64.1;Undirected
+511;512;Rua Doutor João Lúcio;residential;47.83;Undirected
+513;150;Largo de Sao Pedro;residential;10.44;Undirected
+150;514;Largo de Sao Pedro;residential;37.73;Undirected
+514;515;Largo de Sao Pedro;residential;41.61;Undirected
+516;517;UNAMED;residential;87.25;Undirected
+518;519;Rua Doutor Francisco Sousa Vaz;residential;36.77;Undirected
+519;520;Rua Doutor Francisco Sousa Vaz;residential;21.57;Undirected
+520;521;Rua Doutor Francisco Sousa Vaz;residential;32.46;Undirected
+521;217;Rua Doutor Francisco Sousa Vaz;residential;69.93;Undirected
+217;522;Rua Doutor Francisco Sousa Vaz;residential;77.2;Undirected
+523;513;Largo de São Pedro;residential;35.96;Undirected
+524;525;UNAMED;residential;35.38;Undirected
+520;526;UNAMED;residential;45.79;Undirected
+526;527;UNAMED;residential;18.35;Undirected
+527;528;UNAMED;residential;59.88;Undirected
+98;105;Praça Silva Porto;residential;74.51;Undirected
+105;529;Praça Silva Porto;residential;34.12;Undirected
+529;530;Praça Silva Porto;residential;41.73;Undirected
+530;531;Praça Silva Porto;residential;45.51;Undirected
+152;532;Rua do Sol;residential;43.16;Undirected
+533;534;UNAMED;residential;28.11;Undirected
+534;535;UNAMED;residential;27.3;Undirected
+511;32;Rua de Dom João de Castro;residential;79.36;Undirected
+218;536;UNAMED;residential;34.38;Undirected
+537;538;Largo de São Luís;residential;45.98;Undirected
+538;539;Largo de São Luís;residential;16.78;Undirected
+539;540;Largo de São Luís;residential;18.28;Undirected
+442;541;Rua Frei Lourenço Santa Maria;tertiary;10.57;Undirected
+541;542;Rua Frei Lourenço Santa Maria;tertiary;85.22;Undirected
+542;543;Rua Frei Lourenço Santa Maria;tertiary;8.74;Undirected
+544;545;Rua Horta Machado;residential;12.34;Undirected
+545;546;Rua Horta Machado;residential;97.69;Undirected
+546;113;Rua Horta Machado;residential;26.47;Undirected
+215;525;Rua da República Federal da Alemanha;residential;181.21;Undirected
+52;144;Rua José Joaquim de Moura;residential;121.99;Undirected
+144;547;Rua José Joaquim de Moura;residential;130.67;Undirected
+530;548;Rua Gonçalo Barreto;residential;52.96;Undirected
+548;549;Rua Gonçalo Barreto;residential;28.76;Undirected
+549;550;Rua Gonçalo Barreto;residential;20.89;Undirected
+551;552;Rua António Sérgio;residential;49.14;Undirected
+552;531;Rua António Sérgio;residential;61.59;Undirected
+531;111;Rua António Sérgio;residential;15.41;Undirected
+48;553;UNAMED;residential;72.85;Undirected
+109;554;Rua da Mota;residential;39.37;Undirected
+554;555;Rua da Mota;residential;19.21;Undirected
+555;33;Rua da Mota;residential;74.27;Undirected
+46;556;UNAMED;residential;58.09;Undirected
+140;557;Estrada de São Luís;residential;121.11;Undirected
+557;302;Estrada de São Luís;residential;71.89;Undirected
+302;558;Estrada de São Luís;residential;5.73;Undirected
+45;559;UNAMED;residential;30.88;Undirected
+53;145;Rua Actor Nuno Fernandes;residential;139.3;Undirected
+145;560;Rua Actor Nuno Fernandes;residential;101.81;Undirected
+561;562;UNAMED;residential;17.54;Undirected
+544;563;UNAMED;residential;13.6;Undirected
+563;111;UNAMED;residential;62.49;Undirected
+440;509;Rua Cunha Matos;residential;86.51;Undirected
+509;564;Rua Cunha Matos;residential;63.93;Undirected
+173;522;UNAMED;residential;18.23;Undirected
+522;565;UNAMED;residential;45.88;Undirected
+51;143;Rua Emiliano da Costa;residential;104.43;Undirected
+143;566;Rua Emiliano da Costa;residential;95.68;Undirected
+566;567;Rua Emiliano da Costa;residential;59.19;Undirected
+113;552;Rua Brito Cabreira;residential;75.14;Undirected
+552;548;Rua Brito Cabreira;residential;44.71;Undirected
+548;535;Rua Brito Cabreira;residential;59.23;Undirected
+535;104;Rua Brito Cabreira;residential;34.32;Undirected
+104;97;Rua Brito Cabreira;residential;55.26;Undirected
+97;384;Rua Brito Cabreira;residential;41.26;Undirected
+568;569;Praça António Sérgio;residential;105.62;Undirected
+142;570;Rua Nova de São Luís;residential;108.63;Undirected
+570;303;Rua Nova de São Luís;residential;72.44;Undirected
+571;572;UNAMED;residential;58.05;Undirected
+573;574;UNAMED;residential;37.58;Undirected
+575;576;UNAMED;residential;27.92;Undirected
+577;578;Rua Engenheiro Adelino Amaro da Costa;residential;106.59;Undirected
+578;66;Rua Engenheiro Adelino Amaro da Costa;residential;93.31;Undirected
+66;579;Rua Engenheiro Adelino Amaro da Costa;residential;89.09;Undirected
+580;581;UNAMED;residential;17.59;Undirected
+582;583;Rua Doutor José Neves Junior;residential;78.65;Undirected
+584;585;Rua Luís de Camões;residential;62.9;Undirected
+586;587;Rua Engenheiro Aboim Sande Lemos;residential;72.23;Undirected
+587;588;Rua Engenheiro Aboim Sande Lemos;residential;15.91;Undirected
+588;589;Rua Engenheiro Aboim Sande Lemos;residential;155.52;Undirected
+589;590;Rua Engenheiro Aboim Sande Lemos;residential;29.95;Undirected
+591;592;Rua Luís de Camões;residential;27.78;Undirected
+592;593;Rua Luís de Camões;residential;20.51;Undirected
+587;594;Urbanização Horta do Ferragiel;residential;11.96;Undirected
+594;595;Urbanização Horta do Ferragiel;residential;26.94;Undirected
+595;596;Urbanização Horta do Ferragiel;residential;42.74;Undirected
+596;597;Urbanização Horta do Ferragiel;residential;25.48;Undirected
+598;599;UNAMED;residential;72.8;Undirected
+68;600;UNAMED;residential;23.97;Undirected
+601;602;UNAMED;residential;39.52;Undirected
+602;603;UNAMED;residential;28.89;Undirected
+70;72;UNAMED;residential;47.24;Undirected
+604;73;UNAMED;residential;15.25;Undirected
+73;605;UNAMED;residential;50.04;Undirected
+287;580;UNAMED;residential;21.31;Undirected
+580;590;UNAMED;residential;45.37;Undirected
+67;604;UNAMED;residential;28.54;Undirected
+604;600;UNAMED;residential;15.22;Undirected
+600;69;UNAMED;residential;30.34;Undirected
+606;607;Largo São Sebastião;residential;12.29;Undirected
+607;608;Largo São Sebastião;residential;28.11;Undirected
+608;609;Largo São Sebastião;residential;17.26;Undirected
+609;610;Largo São Sebastião;residential;15.53;Undirected
+611;612;UNAMED;residential;28.28;Undirected
+613;614;UNAMED;residential;9.13;Undirected
+614;615;UNAMED;residential;7.91;Undirected
+615;602;UNAMED;residential;33.64;Undirected
+616;617;Rua Reis Damaso;residential;18.22;Undirected
+617;598;Rua Reis Damaso;residential;32.4;Undirected
+598;286;Rua Reis Damaso;residential;41.0;Undirected
+286;618;Rua Reis Damaso;residential;48.46;Undirected
+71;619;Travessa Pintor Carlos Porfírio;residential;82.3;Undirected
+288;620;UNAMED;residential;64.75;Undirected
+621;613;UNAMED;residential;33.69;Undirected
+622;623;Largo São Sebastião;residential;10.68;Undirected
+623;624;Largo São Sebastião;residential;29.38;Undirected
+624;625;Largo São Sebastião;residential;26.86;Undirected
+625;626;Largo São Sebastião;residential;32.35;Undirected
+627;628;UNAMED;residential;49.06;Undirected
+629;582;Rua Luís de Camões;residential;29.87;Undirected
+582;628;Rua Luís de Camões;residential;41.23;Undirected
+628;630;Rua Luís de Camões;residential;85.66;Undirected
+631;616;Rua do Bocage;residential;13.41;Undirected
+616;263;Rua do Bocage;residential;102.13;Undirected
+263;632;Rua do Bocage;residential;102.97;Undirected
+632;188;Rua do Bocage;residential;14.94;Undirected
+28;60;UNAMED;tertiary;22.63;Undirected
+60;35;UNAMED;tertiary;13.72;Undirected
+35;633;UNAMED;tertiary;15.76;Undirected
+633;28;UNAMED;tertiary;15.57;Undirected
+34;634;Rua Pinheiro Chagas;residential;13.03;Undirected
+634;175;Rua Pinheiro Chagas;residential;62.5;Undirected
+284;291;Rua Dr Francisco Lazaro Cortes;residential;115.8;Undirected
+262;635;UNAMED;residential;9.98;Undirected
+95;636;Rua Conselheiro Sebastião Teles;residential;50.33;Undirected
+636;637;Rua Conselheiro Sebastião Teles;residential;29.55;Undirected
+637;638;Rua Conselheiro Sebastião Teles;residential;68.87;Undirected
+638;639;Rua Conselheiro Sebastião Teles;residential;69.83;Undirected
+639;640;Rua Conselheiro Sebastião Teles;residential;42.55;Undirected
+641;638;UNAMED;residential;57.28;Undirected
+252;238;UNAMED;tertiary;34.97;Undirected
+642;643;Rua Coelho Ventura;tertiary;8.0;Undirected
+643;644;Rua Coelho Ventura;tertiary;59.55;Undirected
+645;646;UNAMED;residential;64.07;Undirected
+646;647;UNAMED;residential;31.35;Undirected
+647;235;UNAMED;residential;74.75;Undirected
+648;649;UNAMED;residential;45.18;Undirected
+649;650;UNAMED;residential;63.68;Undirected
+209;651;Rua da Madalena;residential;105.59;Undirected
+651;652;Rua da Madalena;residential;43.42;Undirected
+653;654;Rua de São Pedro;residential;22.31;Undirected
+654;655;Rua de São Pedro;residential;19.1;Undirected
+655;656;Rua de São Pedro;residential;4.77;Undirected
+656;657;Rua de São Pedro;residential;50.34;Undirected
+657;157;Rua de São Pedro;residential;33.98;Undirected
+157;658;Rua de São Pedro;residential;25.25;Undirected
+659;660;Rua Cristôvão Dória;residential;12.11;Undirected
+274;271;Travessa Castilho;residential;74.15;Undirected
+156;661;Rua do Capitão Mor;residential;46.78;Undirected
+662;663;Rua do Prior;residential;26.26;Undirected
+663;664;Rua do Prior;residential;34.87;Undirected
+664;665;Rua do Prior;residential;4.1;Undirected
+665;666;Rua do Prior;residential;74.81;Undirected
+666;656;Rua do Prior;residential;40.82;Undirected
+210;667;UNAMED;residential;90.52;Undirected
+231;659;Rua Manuel Ascensão;residential;21.29;Undirected
+659;668;Rua Manuel Ascensão;residential;27.06;Undirected
+90;667;Rua da Viola;residential;61.08;Undirected
+667;651;Rua da Viola;residential;33.99;Undirected
+651;655;Rua da Viola;residential;39.1;Undirected
+660;608;Rua Mascarenhas Manuel;residential;118.9;Undirected
+272;277;Praça Alexandre Herculano;residential;22.0;Undirected
+306;669;UNAMED;residential;144.39;Undirected
+669;670;UNAMED;residential;80.56;Undirected
+671;672;UNAMED;residential;40.48;Undirected
+672;340;UNAMED;residential;54.74;Undirected
+673;669;UNAMED;residential;99.69;Undirected
+674;675;UNAMED;residential;100.36;Undirected
+675;670;UNAMED;residential;31.1;Undirected
+670;676;UNAMED;residential;79.34;Undirected
+677;678;UNAMED;residential;74.39;Undirected
+679;677;UNAMED;residential;20.61;Undirected
+677;675;UNAMED;residential;44.62;Undirected
+680;681;Praceta Doutor Lázaro Doglioni;residential;63.47;Undirected
+681;682;Praceta Doutor Lázaro Doglioni;residential;41.35;Undirected
+320;683;UNAMED;residential;117.15;Undirected
+684;685;Rua Emissor Regional Sul;residential;100.38;Undirected
+338;686;Rua Arnaldo Vilhena;residential;80.64;Undirected
+686;337;Rua Arnaldo Vilhena;residential;78.18;Undirected
+686;687;UNAMED;residential;43.54;Undirected
+688;689;UNAMED;residential;5.73;Undirected
+689;690;UNAMED;residential;27.85;Undirected
+349;691;UNAMED;residential;31.77;Undirected
+692;347;Rua da Amendoeira;residential;66.38;Undirected
+347;364;Rua da Amendoeira;residential;86.19;Undirected
+364;693;Rua da Amendoeira;residential;161.49;Undirected
+693;694;Rua da Amendoeira;residential;62.13;Undirected
+693;695;UNAMED;residential;67.25;Undirected
+313;696;UNAMED;residential;75.71;Undirected
+697;698;Travessa da Madalena;residential;45.16;Undirected
+698;699;Travessa da Madalena;residential;44.36;Undirected
+698;700;Rua da Barqueta;residential;107.96;Undirected
+524;701;Rua da República Federal da Alemanha;residential;191.18;Undirected
+525;573;Praça António Sérgio;residential;65.61;Undirected
+657;666;Travessa de São Pedro;residential;58.39;Undirected
+76;84;UNAMED;residential;30.15;Undirected
+702;703;Rua Emissor Regional Sul;residential;28.89;Undirected
+703;704;Rua Emissor Regional Sul;residential;34.52;Undirected
+705;706;UNAMED;residential;3.59;Undirected
+706;707;UNAMED;residential;18.72;Undirected
+707;708;Rua Coronel António Santos Fonseca;residential;105.09;Undirected
+708;702;Rua Coronel António Santos Fonseca;residential;25.83;Undirected
+702;201;Rua Coronel António Santos Fonseca;residential;160.37;Undirected
+709;710;Rua Horta Machado;residential;4.66;Undirected
+710;113;Rua Horta Machado;residential;56.31;Undirected
+501;57;Avenida 5 de Outubro;tertiary;222.91;Undirected
+57;711;Avenida 5 de Outubro;tertiary;155.2;Undirected
+711;10;Avenida 5 de Outubro;tertiary;2.43;Undirected
+10;633;Avenida 5 de Outubro;tertiary;197.47;Undirected
+50;141;Estrada da Penha;residential;83.93;Undirected
+544;712;Rua Horta Machado;residential;20.81;Undirected
+712;108;Rua Horta Machado;residential;27.3;Undirected
+108;29;Rua Horta Machado;residential;17.72;Undirected
+20;146;Rua Reitor Teixeira Guedes;tertiary;146.57;Undirected
+146;517;Rua Reitor Teixeira Guedes;tertiary;18.83;Undirected
+517;713;Rua Reitor Teixeira Guedes;tertiary;64.56;Undirected
+714;715;Rua da Saúde;residential;28.16;Undirected
+715;716;Rua da Saúde;residential;21.56;Undirected
+107;151;Rua do Alportel;residential;94.02;Undirected
+12;716;Rua de Loulé;residential;67.39;Undirected
+562;515;Largo de São Pedro;residential;38.76;Undirected
+515;107;Largo de São Pedro;residential;30.2;Undirected
+514;562;Largo de São Pedro;residential;41.26;Undirected
+513;717;Rua José Estêvão;residential;150.12;Undirected
+177;631;Rua Brites de Almeida;residential;53.0;Undirected
+631;268;Rua Brites de Almeida;residential;21.14;Undirected
+718;233;Rua do Trem;residential;38.18;Undirected
+719;720;Estrada da Senhora da Saúde;tertiary;16.97;Undirected
+174;721;Rua do Alportel;tertiary;39.03;Undirected
+721;510;Rua do Alportel;tertiary;111.55;Undirected
+510;722;Rua do Alportel;tertiary;62.82;Undirected
+722;723;Rua do Alportel;tertiary;5.23;Undirected
+723;724;Rua do Alportel;tertiary;15.43;Undirected
+724;725;Rua do Alportel;tertiary;17.05;Undirected
+725;726;Rua do Alportel;tertiary;60.65;Undirected
+727;728;Praça António Sérgio;residential;106.89;Undirected
+535;529;Rua Doutor Coelho de Melo;residential;63.74;Undirected
+529;729;Rua Doutor Coelho de Melo;residential;41.31;Undirected
+730;731;Largo de São Francisco;residential;53.38;Undirected
+731;732;Largo de São Francisco;residential;19.37;Undirected
+492;733;UNAMED;primary;238.99;Undirected
+733;734;UNAMED;primary;26.29;Undirected
+734;735;UNAMED;primary;67.46;Undirected
+735;736;UNAMED;primary;490.03;Undirected
+737;738;UNAMED;residential;5.82;Undirected
+739;740;UNAMED;residential;57.63;Undirected
+741;739;UNAMED;residential;81.03;Undirected
+742;743;UNAMED;residential;26.78;Undirected
+744;407;Rua de Angola;residential;127.54;Undirected
+745;746;UNAMED;residential;175.31;Undirected
+746;747;UNAMED;residential;19.35;Undirected
+168;748;UNAMED;tertiary;534.87;Undirected
+328;42;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;8.14;Undirected
+42;16;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;126.93;Undirected
+305;516;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;43.85;Undirected
+516;328;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;67.96;Undirected
+75;80;UNAMED;residential;55.63;Undirected
+749;750;UNAMED;residential;27.14;Undirected
+751;749;UNAMED;residential;47.89;Undirected
+749;752;UNAMED;residential;65.99;Undirected
+477;753;Rua Professor Alberto Uva;residential;67.08;Undirected
+754;753;UNAMED;residential;117.24;Undirected
+753;755;UNAMED;residential;15.05;Undirected
+755;756;UNAMED;residential;33.41;Undirected
+756;757;UNAMED;residential;67.69;Undirected
+758;759;Praça da Paz;residential;209.22;Undirected
+759;760;Praça da Paz;residential;11.77;Undirected
+761;759;UNAMED;residential;34.13;Undirected
+762;763;UNAMED;residential;54.09;Undirected
+764;428;UNAMED;residential;8.3;Undirected
+765;766;UNAMED;residential;25.72;Undirected
+767;720;UNAMED;tertiary;20.36;Undirected
+765;393;UNAMED;tertiary;13.14;Undirected
+768;769;UNAMED;residential;17.8;Undirected
+770;719;UNAMED;residential;9.59;Undirected
+719;771;UNAMED;residential;4.22;Undirected
+771;765;UNAMED;residential;11.5;Undirected
+765;767;UNAMED;residential;8.75;Undirected
+767;770;UNAMED;residential;1.89;Undirected
+720;772;Estrada da Senhora da Saúde;tertiary;191.79;Undirected
+773;774;UNAMED;tertiary;26.68;Undirected
+771;393;UNAMED;tertiary;12.43;Undirected
+775;776;UNAMED;residential;67.47;Undirected
+777;778;UNAMED;residential;38.5;Undirected
+778;779;UNAMED;residential;60.11;Undirected
+779;780;UNAMED;residential;32.88;Undirected
+781;778;UNAMED;residential;70.23;Undirected
+782;783;UNAMED;residential;60.05;Undirected
+393;777;Estrada da Senhora da Saúde;tertiary;89.46;Undirected
+777;774;Estrada da Senhora da Saúde;tertiary;91.33;Undirected
+784;779;UNAMED;residential;69.76;Undirected
+785;766;UNAMED;residential;48.08;Undirected
+774;786;UNAMED;tertiary;27.11;Undirected
+766;783;UNAMED;residential;47.51;Undirected
+783;769;UNAMED;residential;20.97;Undirected
+769;787;UNAMED;residential;25.46;Undirected
+767;766;UNAMED;residential;24.16;Undirected
+714;198;UNAMED;residential;4.71;Undirected
+198;788;UNAMED;residential;51.64;Undirected
+789;788;Rua Aboim Ascensão;tertiary;37.06;Undirected
+788;790;Rua Aboim Ascensão;tertiary;19.28;Undirected
+790;199;Rua Aboim Ascensão;tertiary;19.05;Undirected
+199;791;Rua Aboim Ascensão;tertiary;1.66;Undirected
+792;714;Rua Aboim Ascensão;tertiary;62.45;Undirected
+714;622;Rua Aboim Ascensão;tertiary;77.43;Undirected
+622;789;Rua Aboim Ascensão;tertiary;15.45;Undirected
+793;11;UNAMED;tertiary;10.84;Undirected
+11;792;UNAMED;tertiary;4.1;Undirected
+792;794;UNAMED;tertiary;19.68;Undirected
+794;795;UNAMED;tertiary;4.35;Undirected
+795;748;UNAMED;tertiary;24.51;Undirected
+748;793;UNAMED;tertiary;13.55;Undirected
+768;787;Rua da Guiné-Bissau;residential;19.68;Undirected
+787;400;Rua da Guiné-Bissau;residential;34.61;Undirected
+400;780;Rua da Guiné-Bissau;residential;46.73;Undirected
+780;796;Rua da Guiné-Bissau;residential;17.83;Undirected
+791;794;Rua Aboim Ascensão;tertiary;86.26;Undirected
+796;776;Rua da Guiné Bissau;residential;48.49;Undirected
+776;402;Rua da Guiné Bissau;residential;85.73;Undirected
+402;797;Rua da Guiné Bissau;residential;43.0;Undirected
+797;798;Rua da Guiné Bissau;residential;35.7;Undirected
+798;799;Rua da Guiné Bissau;residential;26.83;Undirected
+715;624;UNAMED;residential;70.09;Undirected
+795;164;UNAMED;tertiary;504.02;Undirected
+14;800;Rua Infante Dom Henrique;tertiary;144.72;Undirected
+800;96;Rua Infante Dom Henrique;tertiary;52.85;Undirected
+96;645;Rua Infante Dom Henrique;tertiary;26.88;Undirected
+645;89;Rua Infante Dom Henrique;tertiary;6.26;Undirected
+89;652;Rua Infante Dom Henrique;tertiary;93.28;Undirected
+801;13;UNAMED;tertiary;20.8;Undirected
+748;801;UNAMED;tertiary;23.81;Undirected
+161;648;Rua das Duninhas;residential;138.87;Undirected
+802;643;Largo da Estação;residential;29.19;Undirected
+643;93;Largo da Estação;residential;44.56;Undirected
+160;803;UNAMED;residential;51.64;Undirected
+803;637;UNAMED;residential;59.98;Undirected
+804;92;UNAMED;residential;20.72;Undirected
+92;235;Avenida da República;tertiary;113.32;Undirected
+162;640;Rua Gomes Freire;tertiary;53.18;Undirected
+640;801;Rua Gomes Freire;tertiary;40.12;Undirected
+162;601;Rua Miguel Bombarda;residential;70.19;Undirected
+601;621;Rua Miguel Bombarda;residential;52.91;Undirected
+621;649;Rua Miguel Bombarda;residential;18.57;Undirected
+93;804;Largo da Estação;residential;21.2;Undirected
+644;636;Rua Coelho Ventura;residential;61.52;Undirected
+636;800;Rua Coelho Ventura;residential;62.31;Undirected
+805;806;Rua Primeiro de Maio;residential;18.05;Undirected
+806;78;Rua Primeiro de Maio;residential;8.34;Undirected
+78;807;Rua Primeiro de Maio;residential;19.61;Undirected
+807;808;Rua Primeiro de Maio;residential;26.65;Undirected
+808;662;Rua Primeiro de Maio;residential;30.8;Undirected
+662;809;Rua Primeiro de Maio;residential;25.89;Undirected
+664;810;Rua do Capitão Mor;residential;33.56;Undirected
+810;156;Rua do Capitão Mor;residential;6.08;Undirected
+805;717;Praça de Ferreira de Almeida;residential;25.15;Undirected
+810;811;Rua do Compromisso;residential;34.06;Undirected
+811;808;Rua do Compromisso;residential;31.79;Undirected
+240;238;UNAMED;tertiary;21.97;Undirected
+812;813;Travessa dos Arcos;residential;19.0;Undirected
+813;665;Travessa dos Arcos;residential;20.18;Undirected
+654;813;Travessa José Coelho;residential;118.61;Undirected
+270;189;Rua da Misericórdia;residential;46.53;Undirected
+189;814;Rua da Misericórdia;residential;14.39;Undirected
+814;246;Rua da Misericórdia;residential;35.81;Undirected
+809;250;Rua Primeiro de Maio;residential;14.82;Undirected
+250;243;Rua Primeiro de Maio;residential;10.72;Undirected
+555;815;Travessa Lethes;residential;41.36;Undirected
+815;816;Travessa Lethes;residential;91.73;Undirected
+816;817;Travessa Lethes;residential;10.74;Undirected
+818;60;UNAMED;tertiary;14.32;Undirected
+738;512;UNAMED;residential;15.13;Undirected
+532;571;Rua do Sol;residential;35.32;Undirected
+571;110;Rua do Sol;residential;52.23;Undirected
+818;128;Rua de Santo António;tertiary;25.6;Undirected
+128;737;Rua de Santo António;tertiary;88.5;Undirected
+737;819;Rua de Santo António;tertiary;33.84;Undirected
+820;819;UNAMED;tertiary;37.19;Undirected
+127;821;UNAMED;residential;31.07;Undirected
+544;822;UNAMED;residential;13.84;Undirected
+822;823;UNAMED;residential;29.72;Undirected
+823;824;UNAMED;residential;45.07;Undirected
+819;825;UNAMED;tertiary;25.97;Undirected
+153;826;Rua do Sol;residential;53.86;Undirected
+532;824;Rua do Sol;residential;9.33;Undirected
+824;154;Rua do Sol;residential;40.65;Undirected
+232;178;Rua Nova do Castelo;residential;42.78;Undirected
+292;232;UNAMED;residential;27.64;Undirected
+196;827;Rua Comandante Francisco Manuel;residential;205.42;Undirected
+178;292;UNAMED;residential;30.23;Undirected
+245;196;Rua Comandante Francisco Manuel;residential;35.32;Undirected
+827;718;Rua Comandante Francisco Manuel;residential;4.77;Undirected
+279;828;Rua Domingos Guieiro;residential;77.74;Undirected
+828;829;Rua Domingos Guieiro;residential;3.88;Undirected
+829;830;Rua Domingos Guieiro;residential;56.0;Undirected
+831;829;UNAMED;residential;30.33;Undirected
+828;259;UNAMED;residential;25.46;Undirected
+259;832;UNAMED;residential;6.58;Undirected
+833;834;UNAMED;residential;4.75;Undirected
+834;260;Rua Monsenhor Boto;residential;83.07;Undirected
+835;836;Estrada de São Luís;residential;168.28;Undirected
+836;506;Estrada de São Luís;residential;116.07;Undirected
+506;837;Estrada de São Luís;residential;284.23;Undirected
+837;558;Estrada de São Luís;residential;47.78;Undirected
+300;838;UNAMED;residential;19.82;Undirected
+838;299;UNAMED;residential;20.16;Undirected
+797;839;UNAMED;residential;23.98;Undirected
+840;841;UNAMED;residential;20.6;Undirected
+842;843;UNAMED;residential;13.47;Undirected
+843;844;UNAMED;residential;15.63;Undirected
+845;846;UNAMED;residential;7.31;Undirected
+847;840;Rua Doutor Emílio José Campos Coroa;residential;16.19;Undirected
+840;844;Rua Doutor Emílio José Campos Coroa;residential;141.7;Undirected
+844;848;Rua Doutor Emílio José Campos Coroa;residential;14.76;Undirected
+848;845;Rua Doutor Emílio José Campos Coroa;residential;4.47;Undirected
+845;849;Rua Doutor Emílio José Campos Coroa;residential;10.54;Undirected
+849;397;Rua Doutor Emílio José Campos Coroa;residential;29.78;Undirected
+397;768;Rua Doutor Emílio José Campos Coroa;residential;26.63;Undirected
+850;840;UNAMED;residential;25.74;Undirected
+851;842;UNAMED;residential;76.85;Undirected
+852;850;UNAMED;residential;96.22;Undirected
+850;853;UNAMED;residential;34.85;Undirected
+854;839;Praceta João Henrique Santos;residential;21.45;Undirected
+839;855;Praceta João Henrique Santos;residential;24.82;Undirected
+842;846;UNAMED;residential;16.87;Undirected
+846;849;UNAMED;residential;11.32;Undirected
+843;848;UNAMED;residential;8.65;Undirected
+856;857;UNAMED;residential;5.33;Undirected
+858;859;UNAMED;residential;10.57;Undirected
+860;399;UNAMED;residential;97.71;Undirected
+399;841;UNAMED;residential;28.88;Undirected
+841;853;UNAMED;residential;14.98;Undirected
+861;857;UNAMED;residential;33.9;Undirected
+862;389;Avenida Heróis da Pátria;residential;57.07;Undirected
+863;853;Avenida Heróis da Pátria;residential;99.05;Undirected
+853;847;Avenida Heróis da Pátria;residential;16.13;Undirected
+864;861;Rua de Angola;residential;4.58;Undirected
+861;865;Rua de Angola;residential;64.44;Undirected
+865;866;Rua de Angola;residential;77.09;Undirected
+866;403;Rua de Angola;residential;18.6;Undirected
+403;744;Rua de Angola;residential;18.69;Undirected
+867;868;Avenida Heróis da Pátria;residential;8.73;Undirected
+868;869;Avenida Heróis da Pátria;residential;15.35;Undirected
+869;863;Avenida Heróis da Pátria;residential;13.27;Undirected
+870;871;UNAMED;residential;38.56;Undirected
+865;859;UNAMED;residential;22.5;Undirected
+872;871;UNAMED;residential;48.88;Undirected
+871;873;UNAMED;residential;10.12;Undirected
+866;404;UNAMED;residential;17.57;Undirected
+874;875;UNAMED;residential;63.95;Undirected
+876;875;UNAMED;residential;61.93;Undirected
+875;877;UNAMED;residential;61.09;Undirected
+878;877;Rua Filipe Ferrer;residential;148.83;Undirected
+877;876;Rua Filipe Ferrer;residential;10.99;Undirected
+876;879;Rua Filipe Ferrer;residential;57.43;Undirected
+879;377;Rua Doutor José Filipe Álvares;residential;52.97;Undirected
+377;329;Rua Doutor José Filipe Álvares;residential;28.04;Undirected
+329;880;Rua Doutor José Filipe Álvares;residential;13.12;Undirected
+881;882;UNAMED;residential;9.37;Undirected
+880;882;UNAMED;residential;20.15;Undirected
+882;883;UNAMED;residential;16.03;Undirected
+884;885;Rua Vale de Carneiros;residential;165.52;Undirected
+885;886;Rua Vale de Carneiros;residential;51.49;Undirected
+887;888;UNAMED;residential;16.85;Undirected
+888;880;UNAMED;residential;23.52;Undirected
+889;885;Rua Vale de Carneiros;residential;83.53;Undirected
+318;890;Caminho Manuel Vicente;residential;6.7;Undirected
+890;889;Caminho Manuel Vicente;residential;86.73;Undirected
+889;879;Caminho Manuel Vicente;residential;60.67;Undirected
+891;888;UNAMED;residential;9.15;Undirected
+395;361;UNAMED;residential;20.45;Undirected
+389;799;Avenida Heróis da Pátria;residential;37.22;Undirected
+799;867;Avenida Heróis da Pátria;residential;44.29;Undirected
+361;345;Rua Major General António José Da Costa Pinto;residential;44.86;Undirected
+345;892;Rua Major General António José Da Costa Pinto;residential;117.07;Undirected
+339;893;UNAMED;residential;75.98;Undirected
+341;894;UNAMED;residential;61.87;Undirected
+526;895;UNAMED;residential;8.07;Undirected
+896;897;UNAMED;residential;10.76;Undirected
+897;898;UNAMED;residential;12.61;Undirected
+898;899;UNAMED;residential;23.52;Undirected
+899;521;UNAMED;residential;41.49;Undirected
+527;895;UNAMED;residential;20.05;Undirected
+895;519;UNAMED;residential;45.04;Undirected
+896;898;UNAMED;residential;18.38;Undirected
+230;325;UNAMED;residential;14.37;Undirected
+900;322;Rua Cidade de Bolama;residential;23.53;Undirected
+900;323;Rua Cidade de Bolama;residential;23.22;Undirected
+225;321;UNAMED;residential;21.91;Undirected
+901;902;Avenida Doutor Júlio Filipe de Almeida Carrapato;residential;71.9;Undirected
+903;904;UNAMED;tertiary;31.64;Undirected
+903;905;Avenida Doutor Julio Filipe de Almeida Carrapato;residential;20.91;Undirected
+905;902;Avenida Doutor Julio Filipe de Almeida Carrapato;residential;32.1;Undirected
+505;39;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;122.47;Undirected
+39;906;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;29.11;Undirected
+906;487;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;98.91;Undirected
+487;904;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;70.54;Undirected
+904;907;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;22.73;Undirected
+907;905;UNAMED;residential;22.88;Undirected
+503;505;UNAMED;tertiary;19.27;Undirected
+230;215;Rua Sporting Clube Farense;residential;158.92;Undirected
+215;701;Rua Sporting Clube Farense;residential;9.78;Undirected
+701;908;Rua Sporting Clube Farense;residential;6.57;Undirected
+908;216;Rua Sporting Clube Farense;residential;13.51;Undirected
+41;328;UNAMED;residential;10.38;Undirected
+7;909;UNAMED;tertiary;19.37;Undirected
+909;910;UNAMED;tertiary;6.07;Undirected
+910;36;UNAMED;tertiary;33.83;Undirected
+1;328;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;101.5;Undirected
+668;443;Rua Aboim Ascensão;tertiary;14.68;Undirected
+443;451;Rua Aboim Ascensão;tertiary;71.95;Undirected
+451;606;Rua Aboim Ascensão;tertiary;26.92;Undirected
+606;789;Rua Aboim Ascensão;tertiary;10.83;Undirected
+37;131;Rua Ataíde de Olivera;residential;83.99;Undirected
+131;47;Rua Ataíde de Olivera;residential;62.27;Undirected
+47;553;Rua Ataíde de Olivera;residential;53.8;Undirected
+553;911;Rua Ataíde de Olivera;residential;77.67;Undirected
+504;1;UNAMED;tertiary;27.63;Undirected
+912;913;UNAMED;residential;11.05;Undirected
+913;914;UNAMED;residential;14.52;Undirected
+915;916;Laergo de São Luís;residential;7.69;Undirected
+916;917;Laergo de São Luís;residential;10.58;Undirected
+917;912;Laergo de São Luís;residential;7.3;Undirected
+912;914;Laergo de São Luís;residential;12.52;Undirected
+914;915;Laergo de São Luís;residential;7.74;Undirected
+913;918;Largo de São Luís;residential;42.31;Undirected
+916;540;UNAMED;residential;13.18;Undirected
+540;917;UNAMED;residential;9.9;Undirected
+918;724;UNAMED;residential;19.35;Undirected
+724;919;UNAMED;residential;9.52;Undirected
+919;101;UNAMED;residential;6.76;Undirected
+101;920;UNAMED;residential;43.92;Undirected
+722;918;UNAMED;residential;28.73;Undirected
+725;918;UNAMED;residential;17.12;Undirected
+103;921;UNAMED;tertiary;4.77;Undirected
+921;919;UNAMED;tertiary;5.2;Undirected
+919;723;UNAMED;tertiary;14.85;Undirected
+922;923;UNAMED;residential;2.57;Undirected
+923;541;UNAMED;residential;7.39;Undirected
+464;922;Rua Frei Lourenço Santa Maria;residential;8.22;Undirected
+922;924;Rua Frei Lourenço Santa Maria;residential;5.15;Undirected
+464;441;UNAMED;residential;11.74;Undirected
+442;923;Rua Doutor Rodrigo Davim;residential;5.1;Undirected
+923;924;Rua Doutor Rodrigo Davim;residential;3.52;Undirected
+924;925;Rua Doutor Rodrigo Davim;residential;92.02;Undirected
+925;926;Rua Doutor Rodrigo Davim;residential;48.99;Undirected
+721;439;UNAMED;residential;18.23;Undirected
+927;928;UNAMED;residential;11.26;Undirected
+929;381;UNAMED;residential;13.43;Undirected
+928;930;UNAMED;residential;56.92;Undirected
+542;931;UNAMED;residential;5.52;Undirected
+931;932;UNAMED;residential;4.3;Undirected
+932;381;UNAMED;residential;9.66;Undirected
+384;99;Largo do Carmo;residential;72.75;Undirected
+99;933;Largo do Carmo;residential;15.55;Undirected
+933;438;Largo do Carmo;residential;55.35;Undirected
+438;934;Largo do Carmo;residential;6.08;Undirected
+934;561;Largo do Carmo;residential;6.79;Undirected
+468;935;Rua Coronel António Santos Fonseca;residential;100.37;Undirected
+935;706;Rua Coronel António Santos Fonseca;residential;12.56;Undirected
+926;469;Rua do Cercado;residential;55.14;Undirected
+469;475;Rua do Cercado;residential;44.58;Undirected
+936;467;UNAMED;residential;16.37;Undirected
+937;936;UNAMED;residential;13.88;Undirected
+204;449;Rua Frederico Lecor;residential;58.64;Undirected
+449;461;Rua Frederico Lecor;residential;30.52;Undirected
+461;474;Rua Frederico Lecor;residential;58.72;Undirected
+474;470;Rua Frederico Lecor;residential;48.29;Undirected
+470;925;Rua Frederico Lecor;residential;55.63;Undirected
+925;928;Rua Frederico Lecor;residential;49.51;Undirected
+445;387;Rua Carvalho Araújo;residential;55.24;Undirected
+387;705;Rua Carvalho Araújo;residential;126.53;Undirected
+459;938;UNAMED;residential;29.13;Undirected
+939;940;UNAMED;residential;46.62;Undirected
+941;942;UNAMED;residential;47.96;Undirected
+942;943;UNAMED;residential;14.47;Undirected
+940;943;UNAMED;residential;39.47;Undirected
+943;944;UNAMED;residential;13.08;Undirected
+944;938;UNAMED;residential;19.74;Undirected
+938;940;UNAMED;residential;47.27;Undirected
+472;448;Rua Belchior Vieiga;residential;99.57;Undirected
+459;446;Rua Gaspar Leão;residential;26.89;Undirected
+446;454;Rua Gaspar Leão;residential;10.44;Undirected
+454;945;Rua Gaspar Leão;residential;23.33;Undirected
+945;434;Rua Gaspar Leão;residential;5.1;Undirected
+434;465;Rua Gaspar Leão;residential;95.86;Undirected
+942;944;UNAMED;residential;19.79;Undirected
+945;466;UNAMED;residential;74.22;Undirected
+946;947;UNAMED;residential;15.4;Undirected
+947;172;UNAMED;residential;30.65;Undirected
+948;949;UNAMED;residential;22.4;Undirected
+935;707;UNAMED;residential;15.7;Undirected
+949;950;Rua Luís de Camões;residential;46.99;Undirected
+629;948;Rua Luís de Camões;residential;13.76;Undirected
+951;952;Rua Luís de Camões;residential;69.54;Undirected
+952;953;Rua Luís de Camões;residential;11.14;Undirected
+953;591;Rua Luís de Camões;residential;26.69;Undirected
+591;611;Rua Luís de Camões;residential;7.48;Undirected
+611;575;Rua Luís de Camões;residential;40.05;Undirected
+575;954;Rua Luís de Camões;residential;83.5;Undirected
+954;585;Rua Luís de Camões;residential;21.52;Undirected
+585;948;Rua Luís de Camões;residential;72.76;Undirected
+592;953;UNAMED;residential;12.44;Undirected
+955;952;UNAMED;residential;20.14;Undirected
+200;951;Estrada da Senhora da Saúde;residential;75.17;Undirected
+951;385;Estrada da Senhora da Saúde;residential;70.54;Undirected
+385;452;Estrada da Senhora da Saúde;residential;125.76;Undirected
+452;630;Estrada da Senhora da Saúde;residential;47.71;Undirected
+630;684;Estrada da Senhora da Saúde;residential;65.42;Undirected
+684;956;Estrada da Senhora da Saúde;residential;18.05;Undirected
+956;838;Estrada da Senhora da Saúde;residential;42.02;Undirected
+957;958;Rua Doutor José Neves Júnior;residential;14.34;Undirected
+959;583;UNAMED;residential;14.47;Undirected
+960;961;UNAMED;residential;10.18;Undirected
+962;960;Rua Doutor José Neves Junior;residential;45.35;Undirected
+963;964;UNAMED;residential;17.79;Undirected
+965;966;UNAMED;residential;18.87;Undirected
+703;708;UNAMED;residential;15.12;Undirected
+967;968;UNAMED;residential;6.92;Undirected
+954;968;UNAMED;residential;12.13;Undirected
+957;969;Rua Doutor José Neves Júnior;residential;10.43;Undirected
+969;966;Rua Doutor José Neves Júnior;residential;28.18;Undirected
+966;963;Rua Doutor José Neves Júnior;residential;23.5;Undirected
+963;970;Rua Doutor José Neves Júnior;residential;33.87;Undirected
+970;959;Rua Doutor José Neves Júnior;residential;12.62;Undirected
+583;970;UNAMED;residential;11.29;Undirected
+969;956;Rua Doutor José Neves Júnior;residential;37.67;Undirected
+958;965;Rua Doutor José Neves Júnior;residential;34.13;Undirected
+965;964;Rua Doutor José Neves Júnior;residential;15.61;Undirected
+964;971;Rua Doutor José Neves Júnior;residential;39.0;Undirected
+971;961;Rua Doutor José Neves Júnior;residential;8.4;Undirected
+961;959;Rua Doutor José Neves Júnior;residential;4.0;Undirected
+972;741;Rua Cidade da Praia;residential;18.94;Undirected
+367;518;Rua Cidade de Bolama;residential;128.01;Undirected
+518;900;Rua Cidade de Bolama;residential;73.23;Undirected
+224;973;UNAMED;residential;10.65;Undirected
+973;974;UNAMED;residential;3.63;Undirected
+975;976;UNAMED;residential;6.36;Undirected
+976;226;UNAMED;residential;13.02;Undirected
+977;976;UNAMED;residential;5.87;Undirected
+227;229;UNAMED;residential;26.48;Undirected
+223;973;UNAMED;residential;10.71;Undirected
+978;975;UNAMED;residential;67.94;Undirected
+975;979;UNAMED;residential;10.81;Undirected
+974;978;UNAMED;residential;70.35;Undirected
+978;977;UNAMED;residential;70.25;Undirected
+977;979;UNAMED;residential;6.94;Undirected
+979;224;UNAMED;residential;6.11;Undirected
+980;222;UNAMED;residential;58.93;Undirected
+220;981;Praça António Sérgio;residential;8.1;Undirected
+981;536;Praça António Sérgio;residential;19.3;Undirected
+536;574;Praça António Sérgio;residential;191.58;Undirected
+573;982;Praça António Sérgio;residential;173.71;Undirected
+982;981;Praça António Sérgio;residential;15.55;Undirected
+981;219;Praça António Sérgio;residential;8.37;Undirected
+982;221;UNAMED;residential;24.0;Undirected
+574;537;Praça António Sérgio;residential;37.26;Undirected
+537;568;Praça António Sérgio;residential;18.63;Undirected
+568;728;Praça António Sérgio;residential;38.71;Undirected
+728;524;Praça António Sérgio;residential;58.81;Undirected
+21;983;UNAMED;residential;15.74;Undirected
+119;984;UNAMED;residential;15.49;Undirected
+984;985;UNAMED;residential;2.93;Undirected
+985;986;UNAMED;residential;7.9;Undirected
+987;354;UNAMED;residential;19.98;Undirected
+117;362;Largo Doutor Francisco Sá Carneiro;residential;121.27;Undirected
+362;987;Largo Doutor Francisco Sá Carneiro;residential;24.71;Undirected
+987;988;Largo Doutor Francisco Sá Carneiro;residential;13.7;Undirected
+118;485;UNAMED;residential;21.9;Undirected
+485;117;UNAMED;residential;19.42;Undirected
+566;570;Rua Teixeira Gomes;residential;59.53;Undirected
+570;557;Rua Teixeira Gomes;residential;60.01;Undirected
+214;908;UNAMED;residential;11.86;Undirected
+22;983;Rua General Humberto Delgado;residential;29.07;Undirected
+983;54;Rua General Humberto Delgado;residential;42.41;Undirected
+5;989;UNAMED;residential;17.61;Undirected
+989;59;UNAMED;residential;26.16;Undirected
+909;6;UNAMED;residential;2.35;Undirected
+6;989;UNAMED;residential;13.11;Undirected
+58;6;UNAMED;residential;22.08;Undirected
+6;910;UNAMED;residential;4.87;Undirected
+59;751;Rua Doutor Manuel Arriaga;residential;98.09;Undirected
+751;990;Rua Doutor Manuel Arriaga;residential;59.21;Undirected
+990;74;Rua Doutor Manuel Arriaga;residential;17.76;Undirected
+991;65;UNAMED;residential;23.63;Undirected
+74;992;Rua da Polícia de Segurança Pública;residential;13.94;Undirected
+992;289;Rua da Polícia de Segurança Pública;residential;79.05;Undirected
+289;586;Rua da Polícia de Segurança Pública;residential;129.12;Undirected
+586;993;Rua da Polícia de Segurança Pública;residential;86.99;Undirected
+71;994;Travessa Pintor Carlos Porfírio;residential;105.32;Undirected
+994;63;Travessa Pintor Carlos Porfírio;residential;13.67;Undirected
+995;996;UNAMED;residential;25.12;Undirected
+997;998;UNAMED;residential;7.58;Undirected
+999;995;UNAMED;residential;5.15;Undirected
+995;1000;UNAMED;residential;19.02;Undirected
+1000;997;UNAMED;residential;2.36;Undirected
+997;991;UNAMED;residential;20.1;Undirected
+991;1001;UNAMED;residential;17.93;Undirected
+1001;1002;UNAMED;residential;1.99;Undirected
+1002;999;UNAMED;residential;17.44;Undirected
+64;994;UNAMED;residential;17.34;Undirected
+1003;181;UNAMED;residential;18.81;Undirected
+181;743;UNAMED;residential;17.88;Undirected
+743;1004;UNAMED;residential;7.44;Undirected
+1004;295;UNAMED;residential;15.96;Undirected
+295;1003;UNAMED;residential;4.37;Undirected
+184;294;Largo de São Francisco;residential;81.33;Undirected
+263;285;Rua Caçadores 4;residential;61.8;Undirected
+285;1005;Rua Caçadores 4;residential;49.68;Undirected
+1005;1006;Rua Caçadores 4;residential;75.91;Undirected
+1007;595;Urbanização Horta do Ferragiel;residential;54.02;Undirected
+294;731;UNAMED;residential;12.99;Undirected
+1008;290;UNAMED;residential;2.71;Undirected
+290;293;UNAMED;residential;11.51;Undirected
+293;730;UNAMED;residential;14.27;Undirected
+730;1006;UNAMED;residential;11.72;Undirected
+1006;1008;UNAMED;residential;2.12;Undirected
+732;294;UNAMED;residential;12.79;Undirected
+742;996;Rua Engenheiro Joaquim Lopes Belchior;residential;432.71;Undirected
+588;594;UNAMED;residential;12.51;Undirected
+1009;481;UNAMED;residential;80.32;Undirected
+1010;1011;UNAMED;residential;10.43;Undirected
+1012;1013;UNAMED;residential;64.98;Undirected
+1013;1014;UNAMED;residential;10.48;Undirected
+1014;1015;UNAMED;residential;70.46;Undirected
+1015;1012;UNAMED;residential;5.24;Undirected
+1016;1017;UNAMED;residential;18.3;Undirected
+1018;507;UNAMED;residential;94.72;Undirected
+1011;1019;Rua Capitão José Vieira Branco;residential;13.53;Undirected
+1019;1010;Rua Capitão José Vieira Branco;residential;17.94;Undirected
+1020;484;UNAMED;residential;17.94;Undirected
+1021;756;UNAMED;residential;12.76;Undirected
+1022;1013;UNAMED;residential;20.98;Undirected
+477;755;Rua Professor Alberto Uva;residential;65.86;Undirected
+479;1014;UNAMED;residential;46.0;Undirected
+489;1020;Praça Assis Esperança;residential;50.69;Undirected
+1020;1023;Praça Assis Esperança;residential;7.18;Undirected
+1023;490;Praça Assis Esperança;residential;56.99;Undirected
+1024;480;Rua Professor Alberto Uva;residential;73.95;Undirected
+1015;494;UNAMED;residential;7.46;Undirected
+494;1012;UNAMED;residential;5.81;Undirected
+1025;836;UNAMED;residential;55.16;Undirected
+1026;837;Rua Capitão José Vieira Branco;residential;44.53;Undirected
+837;493;Rua Capitão José Vieira Branco;residential;28.25;Undirected
+493;478;Rua Capitão José Vieira Branco;residential;102.39;Undirected
+478;1019;Rua Capitão José Vieira Branco;residential;41.29;Undirected
+476;1024;Rua Professor Alberto Uva;residential;74.77;Undirected
+16;558;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;306.89;Undirected
+558;491;Avenida Doutor Júlio Filipe de Almeida Carrapato;tertiary;98.29;Undirected
+1027;1028;UNAMED;residential;12.85;Undirected
+1029;194;Rua Monsenhor Henrique Ferreira da Silva;residential;2.01;Undirected
+194;1027;Rua Monsenhor Henrique Ferreira da Silva;residential;51.3;Undirected
+1027;679;Rua Monsenhor Henrique Ferreira da Silva;residential;39.18;Undirected
+679;1030;Rua Monsenhor Henrique Ferreira da Silva;residential;5.07;Undirected
+1030;678;Rua Monsenhor Henrique Ferreira da Silva;residential;76.02;Undirected
+678;1031;Rua Monsenhor Henrique Ferreira da Silva;residential;21.9;Undirected
+1031;1032;Rua Monsenhor Henrique Ferreira da Silva;residential;29.35;Undirected
+1033;1031;UNAMED;residential;82.27;Undirected
+320;335;Estrada da Penha;residential;66.83;Undirected
+335;1032;Estrada da Penha;residential;130.13;Undirected
+1032;371;Estrada da Penha;residential;65.49;Undirected
+371;673;Estrada da Penha;residential;17.67;Undirected
+673;306;Estrada da Penha;residential;95.95;Undirected
+306;1034;Estrada da Penha;residential;53.11;Undirected
+1034;690;Estrada da Penha;residential;4.18;Undirected
+690;1035;Estrada da Penha;residential;17.31;Undirected
+1035;1036;Estrada da Penha;residential;13.43;Undirected
+1036;1037;Estrada da Penha;residential;10.4;Undirected
+1037;692;Estrada da Penha;residential;57.18;Undirected
+692;1038;Estrada da Penha;residential;514.88;Undirected
+733;735;UNAMED;residential;93.76;Undirected
+1029;734;UNAMED;residential;17.47;Undirected
+1039;1040;UNAMED;residential;9.88;Undirected
+1040;1041;UNAMED;residential;8.99;Undirected
+1042;1039;UNAMED;residential;9.31;Undirected
+1039;1041;UNAMED;residential;10.9;Undirected
+1041;370;UNAMED;residential;52.74;Undirected
+370;368;UNAMED;residential;13.31;Undirected
+368;1042;UNAMED;residential;50.46;Undirected
+310;375;Rua Distrito de Faro;residential;114.19;Undirected
+309;373;Rua Distrito de Faro;residential;113.9;Undirected
+352;1043;UNAMED;residential;46.39;Undirected
+369;358;UNAMED;residential;26.85;Undirected
+357;1040;UNAMED;residential;25.31;Undirected
+1044;1045;UNAMED;residential;28.27;Undirected
+1046;315;UNAMED;residential;8.64;Undirected
+315;1047;UNAMED;residential;8.57;Undirected
+890;331;UNAMED;residential;18.89;Undirected
+314;1047;UNAMED;residential;18.8;Undirected
+1047;694;UNAMED;residential;13.43;Undirected
+746;1048;UNAMED;residential;18.72;Undirected
+307;372;UNAMED;residential;112.95;Undirected
+350;1049;UNAMED;residential;47.4;Undirected
+348;1050;UNAMED;residential;44.23;Undirected
+1034;1051;UNAMED;residential;93.65;Undirected
+688;1048;UNAMED;residential;32.59;Undirected
+1048;747;UNAMED;residential;23.35;Undirected
+747;1052;UNAMED;residential;33.99;Undirected
+1053;1049;UNAMED;residential;33.88;Undirected
+1049;310;UNAMED;residential;26.1;Undirected
+1054;1035;UNAMED;residential;12.05;Undirected
+1036;689;UNAMED;residential;24.78;Undirected
+40;1055;Rua Alves Rocada;residential;29.65;Undirected
+1055;1056;Rua Alves Rocada;residential;19.79;Undirected
+1057;578;Rua João Veríssimo;residential;91.58;Undirected
+906;1055;UNAMED;residential;62.94;Undirected
+1055;1058;UNAMED;residential;56.11;Undirected
+43;486;Rua Caldas Xavier;residential;127.41;Undirected
+486;1059;Rua Caldas Xavier;residential;74.5;Undirected
+136;1056;Rua Alves Rocada;residential;52.36;Undirected
+1060;1061;Avenida Aníbal C. Guerreiro;tertiary;869.48;Undirected
+1062;1063;Estrada do Cais Comercial;tertiary;68.85;Undirected
+993;999;UNAMED;residential;25.85;Undirected
+563;545;UNAMED;residential;9.75;Undirected
+546;112;UNAMED;residential;12.07;Undirected
+712;822;UNAMED;residential;11.69;Undirected
+717;817;Praça de Ferreira de Almeida;residential;4.55;Undirected
+817;1064;Praça de Ferreira de Almeida;residential;13.06;Undirected
+1064;77;Praça de Ferreira de Almeida;residential;30.48;Undirected
+77;805;Praça de Ferreira de Almeida;residential;16.0;Undirected
+109;29;Rua Lethes;residential;27.36;Undirected
+109;155;Rua Lethes;residential;75.15;Undirected
+554;30;UNAMED;residential;29.61;Undirected
+61;752;Rua da Polícia de Segurança Pública;residential;40.77;Undirected
+752;74;Rua da Polícia de Segurança Pública;residential;49.04;Undirected
+1065;125;UNAMED;residential;38.8;Undirected
+125;114;UNAMED;residential;49.77;Undirected
+61;35;Rua da Polícia de Segurança Pública;residential;20.12;Undirected
+275;191;Rua João Dias;residential;146.45;Undirected
+265;267;UNAMED;residential;21.64;Undirected
+267;176;Rua Castilho;residential;111.31;Undirected
+632;283;UNAMED;residential;9.46;Undirected
+256;187;UNAMED;residential;30.38;Undirected
+1066;1067;UNAMED;residential;5.16;Undirected
+1067;1068;UNAMED;residential;27.19;Undirected
+1069;830;Praça Afonso III;residential;37.48;Undirected
+830;1066;Praça Afonso III;residential;2.74;Undirected
+1066;1070;Praça Afonso III;residential;5.96;Undirected
+1070;1069;Praça Afonso III;residential;37.25;Undirected
+296;1071;Rua da Misericórdia;residential;70.35;Undirected
+1071;197;Rua da Misericórdia;residential;40.21;Undirected
+635;1071;UNAMED;residential;8.83;Undirected
+1071;814;UNAMED;residential;6.51;Undirected
+814;190;UNAMED;residential;7.39;Undirected
+1072;1073;Largo da Sé;residential;6.85;Undirected
+1073;1074;Largo da Sé;residential;12.37;Undirected
+1074;831;Largo da Sé;residential;14.33;Undirected
+831;832;Largo da Sé;residential;9.1;Undirected
+832;1072;Largo da Sé;residential;8.22;Undirected
+149;1075;Largo da Sé;residential;8.7;Undirected
+1075;1076;Largo da Sé;residential;10.69;Undirected
+1076;1077;Largo da Sé;residential;11.06;Undirected
+1078;1079;Largo da Sé;residential;14.55;Undirected
+1079;281;Largo da Sé;residential;12.14;Undirected
+281;1080;Largo da Sé;residential;11.39;Undirected
+1080;1081;Largo da Sé;residential;13.82;Undirected
+1082;1079;UNAMED;residential;13.98;Undirected
+1073;1075;UNAMED;residential;18.49;Undirected
+1077;1083;Largo da Sé;residential;11.27;Undirected
+1083;147;Largo da Sé;residential;4.36;Undirected
+147;149;Largo da Sé;residential;9.09;Undirected
+1084;1085;Largo da Sé;residential;11.95;Undirected
+1085;1081;Largo da Sé;residential;16.92;Undirected
+1080;1086;UNAMED;residential;24.22;Undirected
+1085;1087;UNAMED;residential;23.43;Undirected
+1078;1082;UNAMED;residential;15.78;Undirected
+1088;1076;UNAMED;residential;14.58;Undirected
+148;833;UNAMED;residential;10.78;Undirected
+1081;1087;Largo da Sé;residential;12.63;Undirected
+1087;1078;Largo da Sé;residential;12.74;Undirected
+1081;1086;Largo da Sé;residential;15.55;Undirected
+1086;1088;Largo da Sé;residential;7.11;Undirected
+1088;1077;Largo da Sé;residential;12.46;Undirected
+1077;1084;Largo da Sé;residential;4.98;Undirected
+1083;1085;UNAMED;residential;21.03;Undirected
+1088;1074;UNAMED;residential;16.95;Undirected
+1089;807;UNAMED;residential;16.81;Undirected
+276;1090;Praça Alexandre Herculano;residential;10.12;Undirected
+1091;86;Rua Nova;residential;9.29;Undirected
+86;81;Rua Nova;residential;63.78;Undirected
+992;990;UNAMED;residential;13.93;Undirected
+1092;825;UNAMED;tertiary;4.14;Undirected
+825;820;UNAMED;tertiary;17.27;Undirected
+820;634;UNAMED;tertiary;14.85;Undirected
+634;269;UNAMED;tertiary;25.49;Undirected
+269;1092;UNAMED;tertiary;3.88;Undirected
+76;617;Rua do Bocage;residential;150.78;Undirected
+561;523;Largo de São Pedro;residential;81.65;Undirected
+437;933;Largo do Carmo;residential;55.31;Undirected
+1093;436;Largo do Carmo;residential;58.17;Undirected
+206;1093;Largo do Carmo;residential;28.31;Undirected
+1093;1094;Largo do Carmo;residential;46.87;Undirected
+1094;383;Largo do Carmo;residential;16.74;Undirected
+1094;384;UNAMED;residential;17.52;Undirected
+208;523;Rua Filipe Alistão;residential;7.04;Undirected
+523;658;Rua Filipe Alistão;residential;5.33;Undirected
+658;661;Rua Filipe Alistão;residential;109.85;Undirected
+661;806;Rua Filipe Alistão;residential;60.3;Undirected
+1095;626;Rua de São Sebastião;residential;66.35;Undirected
+934;106;UNAMED;residential;78.34;Undirected
+1096;823;UNAMED;residential;11.97;Undirected
+1097;549;UNAMED;residential;17.83;Undirected
+1098;382;UNAMED;residential;75.22;Undirected
+1099;534;UNAMED;residential;58.75;Undirected
+607;623;UNAMED;residential;14.25;Undirected
+1100;639;UNAMED;residential;23.58;Undirected
+1101;609;UNAMED;residential;11.19;Undirected
+921;102;Rua Aboim Ascensão;tertiary;2.84;Undirected
+102;920;Rua Aboim Ascensão;tertiary;49.39;Undirected
+920;380;Rua Aboim Ascensão;tertiary;43.11;Undirected
+380;932;Rua Aboim Ascensão;tertiary;5.31;Undirected
+932;929;Rua Aboim Ascensão;tertiary;8.57;Undirected
+929;930;Rua Aboim Ascensão;tertiary;115.49;Undirected
+930;668;Rua Aboim Ascensão;tertiary;38.15;Undirected
+1102;1103;Rua General Teófilo da Trindade;tertiary;9.58;Undirected
+1103;984;Rua General Teófilo da Trindade;tertiary;67.92;Undirected
+984;120;Rua General Teófilo da Trindade;tertiary;19.66;Undirected
+120;709;Rua General Teófilo da Trindade;tertiary;94.99;Undirected
+709;727;Rua General Teófilo da Trindade;tertiary;88.39;Undirected
+727;569;Rua General Teófilo da Trindade;tertiary;14.38;Undirected
+569;726;Rua General Teófilo da Trindade;tertiary;69.0;Undirected
+726;919;Rua General Teófilo da Trindade;tertiary;85.11;Undirected
+919;100;Rua General Teófilo da Trindade;tertiary;11.72;Undirected
+921;533;Rua General Teófilo da Trindade;tertiary;32.04;Undirected
+533;550;Rua General Teófilo da Trindade;tertiary;77.56;Undirected
+550;551;Rua General Teófilo da Trindade;tertiary;42.68;Undirected
+551;710;Rua General Teófilo da Trindade;tertiary;101.01;Undirected
+710;1104;Rua General Teófilo da Trindade;tertiary;48.62;Undirected
+1104;363;Rua General Teófilo da Trindade;tertiary;52.51;Undirected
+363;986;Rua General Teófilo da Trindade;tertiary;23.75;Undirected
+986;8;Rua General Teófilo da Trindade;tertiary;65.54;Undirected
+100;379;Rua Aboim Ascensão;tertiary;35.38;Undirected
+379;564;Rua Aboim Ascensão;tertiary;14.48;Undirected
+564;931;Rua Aboim Ascensão;tertiary;38.75;Undirected
+931;543;Rua Aboim Ascensão;tertiary;7.18;Undirected
+543;927;Rua Aboim Ascensão;tertiary;51.47;Undirected
+927;443;Rua Aboim Ascensão;tertiary;118.44;Undirected
+1104;985;UNAMED;residential;69.27;Undirected
+985;1103;UNAMED;residential;66.27;Undirected
+1103;988;UNAMED;residential;23.08;Undirected
+36;711;Rua Doutor Cândido Guerreiro;tertiary;5.62;Undirected
+711;25;Rua Doutor Cândido Guerreiro;tertiary;103.44;Undirected
+25;1102;Rua Doutor Cândido Guerreiro;tertiary;132.98;Undirected
+7;130;Rua Doutor José de Matos;tertiary;25.61;Undirected
+130;49;Rua Doutor José de Matos;tertiary;62.51;Undirected
+49;62;Rua Doutor José de Matos;tertiary;128.56;Undirected
+62;911;Rua Doutor José de Matos;tertiary;61.95;Undirected
+911;1057;Rua Doutor José de Matos;tertiary;73.92;Undirected
+1057;135;Rua Doutor José de Matos;tertiary;56.41;Undirected
+135;579;Rua Doutor José de Matos;tertiary;39.99;Undirected
+579;1059;Rua Doutor José de Matos;tertiary;30.23;Undirected
+1059;907;Rua Doutor José de Matos;tertiary;47.57;Undirected
+907;903;Rua Doutor José de Matos;tertiary;25.5;Undirected
+903;138;Rua Doutor José de Matos;tertiary;53.76;Undirected
+138;1105;Rua Doutor José de Matos;tertiary;335.04;Undirected
+1106;27;UNAMED;residential;38.91;Undirected
+590;618;Rua Doutor Pereira de Sousa;residential;31.18;Undirected
+618;1005;Rua Doutor Pereira de Sousa;residential;97.36;Undirected
+1107;589;UNAMED;residential;18.25;Undirected
+246;237;Rua da Misericórdia;tertiary;45.23;Undirected
+1108;167;UNAMED;primary;291.16;Undirected
+249;252;Avenida da República;tertiary;14.35;Undirected
+1070;182;Rua do Castelo;residential;78.8;Undirected
+234;1109;Rua do Arco;residential;29.69;Undirected
+233;1082;Rua do Trem;residential;11.09;Undirected
+1004;732;Largo de São Francisco;residential;49.15;Undirected
+998;1061;UNAMED;residential;66.49;Undirected
+235;697;Avenida da República;tertiary;103.42;Undirected
+697;1110;Avenida da República;tertiary;40.65;Undirected
+1110;248;Avenida da República;tertiary;41.37;Undirected
+1111;802;Largo da Estação;residential;10.11;Undirected
+802;160;Largo da Estação;residential;7.0;Undirected
+741;763;UNAMED;residential;95.25;Undirected
+798;860;UNAMED;residential;50.49;Undirected
+1112;1030;UNAMED;residential;55.3;Undirected
+1017;1026;UNAMED;residential;16.07;Undirected
+1026;1016;UNAMED;residential;5.47;Undirected
+206;1113;Travessa da Atalaia;residential;37.86;Undirected
+1113;231;Rua da Atalaia;residential;41.39;Undirected
+212;1101;Rua Cristôvão Dória;residential;8.01;Undirected
+1101;660;Rua Cristôvão Dória;residential;118.83;Undirected
+14;1095;Rua de São Sebastião;residential;17.38;Undirected
+211;626;Rua de São Sebastião;residential;60.24;Undirected
+212;610;Rua de Loulé;residential;12.45;Undirected
+610;625;Rua de Loulé;residential;14.74;Undirected
+625;716;Rua de Loulé;residential;71.41;Undirected
+716;1095;Rua da Saúde;residential;22.43;Undirected
+251;1110;Avenida da República;residential;145.02;Undirected
+241;809;Rua Primeiro de Maio;residential;20.35;Undirected
+1114;1115;UNAMED;residential;30.24;Undirected
+427;1114;Urbanização Horta das Figuras;residential;42.6;Undirected
+1114;415;Urbanização Horta das Figuras;residential;42.53;Undirected
+415;1116;Urbanização Horta das Figuras;residential;28.09;Undirected
+332;1045;Rua Doutor Olímpio Passos Valente;residential;26.16;Undirected
+1045;1117;Rua Doutor Olímpio Passos Valente;residential;128.61;Undirected
+1117;344;Rua Doutor Olímpio Passos Valente;residential;73.05;Undirected
+1117;681;Praceta Doutor Lázaro Doglioni;residential;65.82;Undirected
+1061;991;UNAMED;residential;62.24;Undirected
+200;790;UNAMED;residential;21.33;Undirected
+320;193;UNAMED;residential;38.5;Undirected
+484;1023;UNAMED;residential;16.81;Undirected
+367;390;UNAMED;residential;37.36;Undirected
+996;1000;UNAMED;residential;23.64;Undirected
+694;1046;UNAMED;residential;15.75;Undirected
+1046;316;UNAMED;residential;19.71;Undirected
+949;629;UNAMED;residential;25.67;Undirected
+1002;993;UNAMED;residential;25.26;Undirected
+1037;1054;UNAMED;residential;19.71;Undirected
+1054;688;UNAMED;residential;17.36;Undirected
+971;960;UNAMED;residential;15.1;Undirected
+65;1001;UNAMED;residential;21.08;Undirected
+181;742;UNAMED;residential;38.48;Undirected
+644;803;Rua Miguel Bombarda;tertiary;28.85;Undirected
+803;641;Rua Miguel Bombarda;tertiary;63.42;Undirected
+641;162;Rua Miguel Bombarda;tertiary;117.72;Undirected
+642;1111;Largo da Estação;residential;22.36;Undirected
+804;642;Largo da Estação;residential;25.81;Undirected
+255;282;Rua do Repouso;residential;42.11;Undirected
+282;1118;Rua do Repouso;residential;4.57;Undirected
+1118;1069;Rua do Repouso;residential;48.94;Undirected
+663;811;Travessa das Cocheiras;residential;30.65;Undirected
+647;699;Rua da Cruz;residential;89.75;Undirected
+700;94;Rua Miguel Bombarda;tertiary;80.73;Undirected
+94;644;Rua Miguel Bombarda;tertiary;47.49;Undirected
+1119;646;Rua do Forno;residential;75.47;Undirected
+699;1119;Largo da Madalena;residential;14.75;Undirected
+652;1119;Largo da Madalena;residential;20.76;Undirected
+652;1120;Largo da Madalena;tertiary;17.98;Undirected
+653;1120;Rua Conselheiro Bivar;tertiary;19.27;Undirected
+899;170;UNAMED;residential;47.77;Undirected
+713;304;Rua Reitor Teixeira Guedes;tertiary;18.91;Undirected
+304;15;Rua Reitor Teixeira Guedes;tertiary;2.92;Undirected
+183;280;Rua do Trem;residential;53.68;Undirected
+159;396;Rua do Alportel;primary;22.24;Undirected
+216;761;Rua de São Luís;residential;58.13;Undirected
+761;760;Rua de São Luís;residential;32.72;Undirected
+760;709;Rua de São Luís;residential;213.4;Undirected
+216;50;Rua Sporting Clube Farense;residential;47.57;Undirected
+873;865;UNAMED;residential;53.71;Undirected
+1118;1121;UNAMED;residential;27.0;Undirected
+1067;1070;UNAMED;residential;4.83;Undirected
+1122;272;Praça Alexandre Herculano;residential;9.37;Undirected
+272;1090;Praça Alexandre Herculano;residential;16.81;Undirected
+1090;177;Praça Alexandre Herculano;residential;11.12;Undirected
+278;297;UNAMED;residential;41.01;Undirected
+271;1122;Rua Alexandre Herculano;residential;68.16;Undirected
+490;496;UNAMED;residential;25.8;Undirected
+815;155;Rua Baptista Lopes;residential;35.19;Undirected
+155;816;Rua Lethes;residential;85.53;Undirected
+816;1064;Rua Lethes;residential;11.97;Undirected
+23;129;Largo Manuel Teixeira Gomes;residential;23.52;Undirected
+396;884;Rua do Alportel;primary;168.62;Undirected
+884;887;Rua do Alportel;primary;10.01;Undirected
+887;891;Rua do Alportel;primary;18.58;Undirected
+891;881;Rua do Alportel;primary;8.35;Undirected
+881;883;Rua do Alportel;primary;19.1;Undirected
+883;406;Rua do Alportel;primary;2.34;Undirected
+406;1123;Rua do Alportel;primary;395.76;Undirected
+396;862;Avenida Calouste Gulbenkian;primary;283.03;Undirected
+862;388;Avenida Calouste Gulbenkian;primary;74.27;Undirected
+388;773;Avenida Calouste Gulbenkian;primary;318.61;Undirected
+773;786;Avenida Calouste Gulbenkian;primary;38.13;Undirected
+786;166;Avenida Calouste Gulbenkian;primary;295.76;Undirected
+868;864;Rua de Angola;residential;25.52;Undirected
+864;869;Rua de Angola;residential;24.69;Undirected
