@@ -9,6 +9,9 @@ the corresponding graph.
 Nodes => Road intersection
 Edges => Road
 
+This script is using Overpass API Ruby:
+    https://github.com/BrunoSalerno/overpass-api-ruby
+
 =end
 
 require 'json'
