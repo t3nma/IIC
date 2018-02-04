@@ -2,15 +2,12 @@
 
 --intersect.rb
 
-Parse JSON file containing data 
-extracted from OSM and build
-the corresponding graph.
+Parse JSON file containing data extracted 
+from OSM and build the corresponding 
+primal network.
 
 Nodes => Road intersection
 Edges => Road
-
-This script is using Overpass API Ruby:
-    https://github.com/BrunoSalerno/overpass-api-ruby
 
 =end
 
@@ -114,7 +111,7 @@ ways.each do |way|
     n_end   = way[:nodes][ix].to_s
 
     next if n_start == n_end ||       # same nodes
-            find_edge(n_start,n_end) # edge already exists
+            find_edge(n_start,n_end)  # edge already exists
 
     add_edge(n_start, n_end)
     
@@ -152,7 +149,7 @@ ways.each do |way|
   n_start = way[:nodes][ix_start].to_s
   n_end   = way[:nodes][-1].to_s
 
-  next if n_start == n_end || # same nodes
+  next if n_start == n_end ||      # same nodes
           find_edge(n_start,n_end) # edge already exists
 
   add_edge(n_start, n_end)

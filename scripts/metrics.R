@@ -1,9 +1,7 @@
-# This is the script in charge of computing
+# This script is in charge of computing
 # both closeness and betweenness values.
 # It does so using the TNET library:
 #     https://toreopsahl.com/tnet/software/
-
-
 
 
 # call tnet and load network

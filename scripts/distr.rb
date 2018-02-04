@@ -1,3 +1,8 @@
+=begin
+Compute the nodes probability values
+for closeness and betweenness centrality. 
+=end
+
 abort("USAGE: ruby distr.rb Nodes.csv") if ARGV.empty?
 
 b = {}

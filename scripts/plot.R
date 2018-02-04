@@ -1,3 +1,7 @@
+# This script generate and save graphics
+# for the cumulative distribution of
+# closeness and betweenness centrality
+
 library("distr")
 b <- read.table(file="betweenness.txt", sep=" ")
 fx <- DiscreteDistribution(supp=b$V1, prob=b$V2)

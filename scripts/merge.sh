@@ -1,4 +1,5 @@
 #!/bin/bash
+# simple file junction script
 
 # edit metric files
 sed -i '1s/.*/Betweenness Centrality/' betweenness.csv

@@ -13,6 +13,11 @@ Being (s,n,w,e) the coordinates for the box
 and filename the filename to store the 
 downloaded content.
 
+-----------------------------------------------------
+
+This script is using Overpass API Ruby:
+    https://github.com/BrunoSalerno/overpass-api-ruby
+
 =end
 
 require 'overpass_api_ruby'
